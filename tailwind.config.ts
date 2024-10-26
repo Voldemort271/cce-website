@@ -8,9 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      fontFamily: {
+        outfit: ["var(--font-outfit)"],
+        raleway: ["var(--font-raleway)"],
       },
     },
   },
