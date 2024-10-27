@@ -4,9 +4,13 @@ import React, { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
-  const height = (3 * window.innerHeight) / 5;
+  const [height, setHeight] = useState(0);
   const [isShrunk, setShrunk] = useState(false);
   const [toggle, setToggle] = useState(false);
+
+  useEffect(() => {
+    setHeight((3 * window.innerHeight) / 5);
+  }, []);
 
   useEffect(() => {
     const handler = () => {
