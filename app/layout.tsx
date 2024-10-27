@@ -3,6 +3,7 @@ import "./globals.css";
 
 import { Outfit, Raleway } from "next/font/google";
 import React from "react";
+import Navbar from "@/components/nav/nav";
 
 const outfit = Outfit({
   subsets: ["latin"],
@@ -28,7 +29,11 @@ export default function RootLayout({
       <body
         className={`${outfit.variable} ${raleway.variable} ${outfit.className}`}
       >
+        <div className="fixed top-0 left-0 w-screen h-fit z-50">
+          <Navbar />
+        </div>
         {children}
+        <div className="h-screen"></div>
       </body>
     </html>
   );

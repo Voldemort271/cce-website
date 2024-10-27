@@ -1,12 +1,9 @@
-import Waves from "@/components/waves/waves";
+import Header from "@/components/home/header";
 
 export default function Home() {
   return (
     <div>
-      <div className="relative w-screen h-[70vh] bg-blue-500 flex flex-col justify-center items-center">
-        hello world!
-        <Waves />
-      </div>
+      <Header />
     </div>
   );
 }
