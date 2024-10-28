@@ -21,7 +21,9 @@ const Header = () => {
       <div className="text-xl sm:text-2xl font-raleway font-bold text-slate-300">
         Indian Institute of Technology, Mandi
       </div>
-      <Waves />
+      <div className="absolute bottom-0 left-0 w-screen h-fit">
+        <Waves color={"#F1F5F9"} />
+      </div>
     </div>
   );
 };
