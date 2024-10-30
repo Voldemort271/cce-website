@@ -4,6 +4,7 @@ import "./globals.css";
 import { Outfit, Raleway } from "next/font/google";
 import React from "react";
 import Navbar from "@/components/nav/nav";
+import Footer from "@/components/footer/footer";
 
 const outfit = Outfit({
   subsets: ["latin"],
@@ -33,7 +34,9 @@ export default function RootLayout({
           <Navbar />
         </div>
         {children}
-        <div className="h-screen"></div>
+        <div>
+          <Footer />
+        </div>
       </body>
     </html>
   );

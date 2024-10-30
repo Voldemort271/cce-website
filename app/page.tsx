@@ -10,17 +10,19 @@ export default function Home() {
     <div className="relative">
       <Header />
       <StatsCard />
-      <div className="flex flex-col justify-center items-center gap-24">
+      <div className="flex flex-col justify-center items-center gap-24 p-5 lg:p-12">
         <InfoSection />
         <AboutCard />
       </div>
       <div className="w-full py-24">
         <Waves color={"#E2E8F0"} />
-        <div className="bg-slate-200 ">
+        <div className="bg-slate-200 relative">
           <div className="py-12 px-24 flex flex-col justify-center items-center">
             <ActivitiesSection />
           </div>
-          <Waves color={"#f1f5f9"} />
+          <div className="absolute -bottom-10 md:-bottom-24 left-1/2 -translate-x-1/2 rotate-180 z-10">
+            <Waves color={"#E2E8F0"} />
+          </div>
         </div>
       </div>
     </div>

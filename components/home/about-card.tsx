@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutCard = () => {
   return (
-    <div className="px-5 sm:px-12 md:px-24 py-12 flex flex-col md:flex-row gap-12 items-center">
+    <div className="px-5 sm:px-12 md:px-24 py-12 flex flex-col lg:flex-row gap-12 items-center">
       <div className="flex flex-col gap-5 flex-shrink">
         <div className="font-raleway text-4xl sm:text-6xl font-bold bg-gradient-to-r from-sky-600 to-teal-600 inline-block text-transparent bg-clip-text">
           About CCE, IIT Mandi
@@ -26,7 +26,7 @@ const AboutCard = () => {
           our school visits
         </button>
       </div>
-      <div className="flex-shrink-0 w-96 md:w-64 lg:w-96 h-96 md:h-64 lg:h-96 relative rounded-full bg-zinc-400 transition-all hover:scale-110"></div>
+      <div className="flex-shrink-0 w-full md:w-64 lg:w-96 aspect-square relative rounded-full bg-zinc-400 transition-all hover:scale-110"></div>
     </div>
   );
 };
