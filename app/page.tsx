@@ -3,7 +3,7 @@ import StatsCard from "@/components/home/stats-card";
 import InfoSection from "@/components/home/info-section";
 import AboutCard from "@/components/home/about-card";
 import ActivitiesSection from "@/components/home/activities-section";
-import Waves from "@/components/waves/waves";
+import Waves from "@/components/common/waves";
 
 export default function Home() {
   return (
