@@ -10,7 +10,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   useEffect(() => {
-    setHeight((9 * window.innerHeight) / 10);
+    setHeight((5 * window.innerHeight) / 10);
   }, []);
 
   useEffect(() => {
@@ -46,7 +46,7 @@ const Navbar = () => {
       </Link>
       <div className="hidden sm:flex flex-row gap-12 items-center text-base lg:text-lg font-semibold">
         <Link href={"/people"}>People</Link>
-        <Link href={"/public"}>Programmes</Link>
+        <Link href={"/programmes"}>Programmes</Link>
         <Link href={"/public"}>Media</Link>
         <Link href={"/public"}>Contact</Link>
       </div>
@@ -61,8 +61,8 @@ const Navbar = () => {
       <div
         className={`${toggle ? "flex" : "hidden"} transition-all sm:hidden absolute right-0 -bottom-44 text-right w-fit px-12 py-5 backdrop-blur-2xl rounded-xl text-base lg:text-lg font-semibold border ${isShrunk ? "text-slate-900 border-slate-300/[0.5]" : "text-slate-100 border-slate-100/[0.5]"} flex-col gap-2.5`}
       >
-        <Link href={"/public"}>People</Link>
-        <Link href={"/public"}>Programmes</Link>
+        <Link href={"/people"}>People</Link>
+        <Link href={"/programmes"}>Programmes</Link>
         <Link href={"/public"}>Media</Link>
         <Link href={"/public"}>Contact</Link>
       </div>
