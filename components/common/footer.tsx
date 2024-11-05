@@ -29,11 +29,10 @@ const Footer = () => {
               Quick links
             </div>
             <div className="w-full grid grid-cols-2 gap-2.5 text-xl">
-              <div>link 1</div>
-              <div>link 2</div>
-              <div>link 3</div>
-              <div>link 4</div>
-              <div>link 5</div>
+              <div>How to reach IITMd</div>
+              <div>Offer courses</div>
+              <div>Head CCE</div>
+              <div>Programmes</div>
             </div>
           </div>
         </div>
