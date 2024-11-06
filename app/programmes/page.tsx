@@ -3,6 +3,9 @@
 import React, { Dispatch, ReactNode, SetStateAction, useState } from "react";
 import SectionHeader from "@/components/common/section-header";
 import Waves from "@/components/common/waves";
+import MOUsTable from "@/components/programmes/mous";
+import ActivitiesTable from "@/components/programmes/activities";
+import VisitsTable from "@/components/programmes/visits";
 
 interface Props {
   children: ReactNode;
@@ -34,7 +37,7 @@ const Programmes = () => {
   return (
     <div className="relative">
       <SectionHeader title={"Programmes"} />
-      <div className="w-full py-24">
+      <div className=" bg-slate-100 w-full py-24">
         <div className="bg-slate-100 px-5 sm:px-12 lg:px-24 min-h-96">
           <div className="w-full h-full p-2.5 px-5 flex flex-col md:flex-row gap-5 ">
             {["MOU's", "Activities", "School Visits"].map((el, i) => (
@@ -48,8 +51,14 @@ const Programmes = () => {
               </TabButton>
             ))}
           </div>
-          <div className="bg-slate-200 mt-2.5 px-5 py-12 rounded-md">
-            {["MOU's", "Activities", "School Visits"][active]}
+          <div className="bg-slate-200 mt-2.5 px-2.5 sm:px-5 py-12 my-12 rounded-md">
+            {active === 0 ? (
+              <MOUsTable />
+            ) : active === 1 ? (
+              <ActivitiesTable />
+            ) : (
+              <VisitsTable />
+            )}
           </div>
         </div>
         <div className="relative">
