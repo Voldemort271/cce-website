@@ -25,6 +25,11 @@ export default function Home() {
         <InfoSection />
         <AboutCard />
       </div>
+      <div className="w-full">
+        <div className="absolute -bottom-10 md:-bottom-24 left-1/2 -translate-x-1/2 rotate-180 z-10">
+          <Waves color={"#f1f5f9"} />
+        </div>
+      </div>
     </div>
   );
 }

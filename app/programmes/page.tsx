@@ -37,8 +37,8 @@ const Programmes = () => {
   return (
     <div className="relative">
       <SectionHeader title={"Programmes"} />
-      <div className=" bg-slate-100 w-full py-24">
-        <div className="bg-slate-100 px-5 sm:px-12 lg:px-24 min-h-96">
+      <div className="w-full py-24">
+        <div className="px-5 sm:px-12 lg:px-24 min-h-96">
           <div className="w-full h-full p-2.5 px-5 flex flex-col md:flex-row gap-5 ">
             {["MOU's", "Activities", "School Visits"].map((el, i) => (
               <TabButton
@@ -62,7 +62,7 @@ const Programmes = () => {
           </div>
         </div>
         <div className="relative">
-          <div className="absolute -bottom-10 md:-bottom-24 left-1/2 -translate-x-1/2 rotate-180 z-10">
+          <div className="absolute -bottom-10 md:-bottom-24 left-1/2 -translate-x-1/2 rotate-180 z-10 bg-none">
             <Waves color={"#f1f5f9"} />
           </div>
         </div>

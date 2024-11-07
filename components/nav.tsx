@@ -47,8 +47,7 @@ const Navbar = () => {
       <div className="hidden sm:flex flex-row gap-12 items-center text-base lg:text-lg font-semibold">
         <Link href={"/people"}>People</Link>
         <Link href={"/programmes"}>Programmes</Link>
-        <Link href={"/public"}>Media</Link>
-        <Link href={"/public"}>Contact</Link>
+        <Link href={"/contact"}>Contact</Link>
       </div>
       <div
         className="inline sm:hidden cursor-pointer"
@@ -63,8 +62,7 @@ const Navbar = () => {
       >
         <Link href={"/people"}>People</Link>
         <Link href={"/programmes"}>Programmes</Link>
-        <Link href={"/public"}>Media</Link>
-        <Link href={"/public"}>Contact</Link>
+        <Link href={"/contact"}>Contact</Link>
       </div>
     </div>
   );
