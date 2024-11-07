@@ -3,8 +3,8 @@ import "./globals.css";
 
 import { Outfit, Raleway } from "next/font/google";
 import React from "react";
-import Navbar from "@/components/nav";
-import Footer from "@/components/footer";
+import Navbar from "../components/nav";
+import Footer from "../components/footer";
 
 const outfit = Outfit({
   subsets: ["latin"],

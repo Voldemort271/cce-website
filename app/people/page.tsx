@@ -1,8 +1,8 @@
 import React from "react";
-import Waves from "@/components/waves";
-import SectionHeader from "@/components/section-header";
-import PersonCard from "@/components/people/person-card";
-import HeaderPic from "@/public/header.jpg";
+import Waves from "../../components/waves";
+import SectionHeader from "../../components/section-header";
+import PersonCard from "../../components/people/person-card";
+import HeaderPic from "../../public/header.jpg";
 
 const PeoplePage = () => {
   return (

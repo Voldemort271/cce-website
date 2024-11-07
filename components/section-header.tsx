@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import HeaderPic from "@/public/header.jpg";
-import Waves from "@/components/waves";
+import HeaderPic from "../public/header.jpg";
+import Waves from "../components/waves";
 
 const SectionHeader = ({ title }: { title: string }) => {
   return (
