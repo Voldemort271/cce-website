@@ -1,11 +1,11 @@
 "use client";
 
 import React, { Dispatch, ReactNode, SetStateAction, useState } from "react";
-import SectionHeader from "@/components/section-header";
-import Waves from "@/components/waves";
-import MOUsTable from "@/components/programmes/mous";
-import ActivitiesTable from "@/components/programmes/activities";
-import VisitsTable from "@/components/programmes/visits";
+import SectionHeader from "../../components/section-header";
+import Waves from "../../components/waves";
+import MOUsTable from "../../components/programmes/mous";
+import ActivitiesTable from "../../components/programmes/activities";
+import VisitsTable from "../../components/programmes/visits";
 
 interface Props {
   children: ReactNode;
