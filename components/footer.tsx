@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import HeaderPic from "../../public/header.jpg";
+import HeaderPic from "../public/header.jpg";
 
 const Footer = () => {
   return (

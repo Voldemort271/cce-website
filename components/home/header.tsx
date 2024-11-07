@@ -1,6 +1,6 @@
 import React from "react";
-import Waves from "@/components/waves";
-import HeaderPic from "@/public/header.jpg";
+import Waves from "../../components/waves";
+import HeaderPic from "../../public/header.jpg";
 import Image from "next/image";
 
 const Header = () => {
