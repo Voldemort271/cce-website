@@ -22,9 +22,6 @@ const AboutCard = () => {
           ex. Sed ut nunc sit amet sem ultricies viverra a eu turpis. Praesent
           congue lobortis gravida.
         </div>
-        <button className="w-fit px-12 py-2.5 mt-5 rounded-full bg-gradient-to-r from-sky-500 to-teal-500 text-slate-100 shadow-zinc-900/[0.2] shadow-xl uppercase text-lg font-medium hover:scale-105 transition-all">
-          our school visits
-        </button>
       </div>
       <div className="flex-shrink-0 w-full md:w-64 lg:w-96 aspect-square relative rounded-full bg-zinc-400 transition-all hover:scale-110"></div>
     </div>

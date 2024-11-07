@@ -10,10 +10,6 @@ export default function Home() {
     <div className="relative">
       <Header />
       <StatsCard />
-      <div className="flex flex-col justify-center items-center gap-24 p-5 lg:p-12">
-        <InfoSection />
-        <AboutCard />
-      </div>
       <div className="w-full py-24">
         <Waves color={"#E2E8F0"} />
         <div className="bg-slate-200 relative">
@@ -24,6 +20,10 @@ export default function Home() {
             <Waves color={"#E2E8F0"} />
           </div>
         </div>
+      </div>
+      <div className="flex flex-col justify-center items-center gap-24 p-5 lg:p-12 mb-24">
+        <InfoSection />
+        <AboutCard />
       </div>
     </div>
   );
