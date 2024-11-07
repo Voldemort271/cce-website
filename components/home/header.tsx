@@ -1,5 +1,5 @@
 import React from "react";
-import Waves from "@/components/common/waves";
+import Waves from "@/components/waves";
 import HeaderPic from "@/public/header.jpg";
 import Image from "next/image";
 
