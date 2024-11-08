@@ -16,11 +16,12 @@ const Footer = () => {
           <div className=" w-full max-w-screen-sm flex-col gap-2.5 items-center justify-center text-center">
             <div className="font-raleway text-4xl font-bold">Contact Us</div>
             <div className="text-xl">
-              My address
+              Centre of Continuing Education, <br />
+              Indian Institute of Technology Mandi
               <br />
-              Hello, world institute of technology
-              <br />
-              Kamand, Mandi 175005, H.P.
+              Himachal Pradesh -175075 <br />
+              Email: cceoffice@iitmandi.ac.in <br />
+              Phone: 01905-267742,267788
               <br />
             </div>
           </div>

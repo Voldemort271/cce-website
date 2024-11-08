@@ -1,5 +1,8 @@
 import React from "react";
 
+import HeaderPic from "../../public/header.jpg";
+import Image from "next/image";
+
 const AboutCard = () => {
   return (
     <div className="px-5 sm:px-12 md:px-24 py-12 flex flex-col lg:flex-row gap-12 items-center">
@@ -23,7 +26,13 @@ const AboutCard = () => {
           congue lobortis gravida.
         </div>
       </div>
-      <div className="flex-shrink-0 w-full md:w-64 lg:w-96 aspect-square relative rounded-full bg-zinc-400 transition-all hover:scale-110"></div>
+      <div className="flex-shrink-0 w-full md:w-64 lg:w-96 aspect-square relative rounded-full transition-all hover:scale-110">
+        <Image
+          src={HeaderPic}
+          alt={"Pic"}
+          className="absolute top-0 left-0 w-full h-full -z-10 rounded-full object-cover"
+        />
+      </div>
     </div>
   );
 };

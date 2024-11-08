@@ -12,11 +12,12 @@ const ContactsPage = () => {
             Contact CCE, IIT Mandi
           </div>
           <div className="py-5 px-12 mt-5 bg-slate-200 rounded-md text-lg font-medium text-center">
-            My address
+            Centre of Continuing Education, <br />
+            Indian Institute of Technology Mandi
             <br />
-            Hello, world institute of technology
-            <br />
-            Kamand, Mandi 175005, H.P.
+            Himachal Pradesh -175075 <br />
+            Email: cceoffice@iitmandi.ac.in <br />
+            Phone: 01905-267742,267788
             <br />
           </div>
         </div>

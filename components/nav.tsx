@@ -3,6 +3,8 @@
 import React, { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
+import LogoPic from "../public/logo.png";
+import Image from "next/image";
 
 const Navbar = () => {
   const [height, setHeight] = useState(0);
@@ -41,8 +43,9 @@ const Navbar = () => {
     <div
       className={`font-raleway transition-all mx-5 lg:mx-12 my-2.5 lg:my-5 rounded-full flex flex-row justify-between items-center gap-5 border backdrop-blur-2xl px-12 py-2.5 sm:py-5 ${isShrunk ? "text-slate-900 border-slate-300/[0.5]" : "text-slate-100 border-slate-100/[0.5]"} shadow-2xl shadow-zinc-900/[0.1]`}
     >
-      <Link href={"/"}>
-        <div className="font-semibold text-2xl">Brand</div>
+      <Link href={"/"} className="flex flex-row gap-2.5 items-center">
+        <Image src={LogoPic} alt={"Logo"} className="w-8 h-8" />
+        <div className="font-bold">CCE IIT Mandi</div>
       </Link>
       <div className="hidden sm:flex flex-row gap-12 items-center text-base lg:text-lg font-semibold">
         <Link href={"/people"}>People</Link>
