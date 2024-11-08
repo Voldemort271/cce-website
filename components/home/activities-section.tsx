@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const ActivitiesSection = () => {
   return (
@@ -7,11 +8,16 @@ const ActivitiesSection = () => {
         Current Activities
       </div>
       <div className="w-full my-5 flex flex-wrap justify-center gap-5">
-        <div className="bg-slate-300 rounded-md p-5 min-w-72">upcoming 1</div>
-        <div className="bg-slate-300 rounded-md p-5 min-w-72">upcoming 2</div>
-        <div className="bg-slate-300 rounded-md p-5 min-w-72">upcoming 3</div>
-        <div className="bg-slate-300 rounded-md p-5 min-w-72">upcoming 4</div>
-        <div className="bg-slate-300 rounded-md p-5 min-w-72">upcoming 5</div>
+        <Link
+          href={
+            "https://drive.google.com/file/d/15_oDar0g0fkG68BAc7E9M4rEY8wjfXZx/view?usp=sharing"
+          }
+          target="_blank"
+        >
+          <div className="bg-slate-300 rounded-md p-5 min-w-72">
+            Digital Foundations: Mastering OS, Networks & IoT
+          </div>
+        </Link>
       </div>
     </div>
   );
