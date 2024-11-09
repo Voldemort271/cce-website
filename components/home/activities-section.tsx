@@ -18,6 +18,16 @@ const ActivitiesSection = () => {
             Digital Foundations: Mastering OS, Networks & IoT
           </div>
         </Link>
+        <Link
+          href={
+            "https://drive.google.com/file/d/1fEc6SkCx3dbNiAq0cYtDgi6bl2pwa3AW/view?usp=sharing"
+          }
+          target="_blank"
+        >
+          <div className="bg-slate-300 rounded-md p-5 min-w-72">
+            Hands-on training on High-Performance Scientific Computing (HPSC)
+          </div>
+        </Link>
       </div>
     </div>
   );
