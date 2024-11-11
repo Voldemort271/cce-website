@@ -28,7 +28,12 @@ const ActivitiesSection = () => {
             Hands-on training on High-Performance Scientific Computing (HPSC)
           </div>
         </Link>
-        <Link href={"/"}>
+        <Link
+          href={
+            "https://drive.google.com/file/d/1aOCGyUVDmS4w5sy7Rm7E95h6OHBKUckY/view?usp=drive_link"
+          }
+          target={"_blank"}
+        >
           <div className="bg-slate-300 rounded-md p-5 min-w-72">
             Hands on IoT- Workshop
           </div>
