@@ -11,10 +11,10 @@ const SectionHeader = ({ title }: { title: string }) => {
         alt={"IIT Mandi"}
         className="absolute top-0 left-0 w-full h-full object-cover -z-10"
       />
-      <div className="px-8 py-2 text-base font-medium rounded-full max-w-full border border-slate-100/[0.3] backdrop-blur-2xl truncate">
-        Worth trying: making the background image move slightly based on the
-        cursor position
-      </div>
+      {/*<div className="px-8 py-2 text-base font-medium rounded-full max-w-full border border-slate-100/[0.3] backdrop-blur-2xl truncate">*/}
+      {/*  Worth trying: making the background image move slightly based on the*/}
+      {/*  cursor position*/}
+      {/*</div>*/}
       <div className="text-4xl sm:text-6xl font-raleway font-bold mt-5">
         {title}
       </div>
