@@ -5,13 +5,12 @@ import SectionHeader from "../../components/section-header";
 import Waves from "../../components/waves";
 import MOUsTable from "../../components/programmes/mous";
 import ActivitiesTable from "../../components/programmes/activities";
-import VisitsTable from "../../components/programmes/visits";
 
 interface Props {
   children: ReactNode;
-  active: number;
-  activate: number;
-  setActive: Dispatch<SetStateAction<number>>;
+  active: boolean;
+  activate: boolean;
+  setActive: Dispatch<SetStateAction<boolean>>;
 }
 
 const TabButton = ({ children, active, activate, setActive }: Props) => {
@@ -32,7 +31,7 @@ const TabButton = ({ children, active, activate, setActive }: Props) => {
 };
 
 const Programmes = () => {
-  const [active, setActive] = useState(0);
+  const [active, setActive] = useState(true);
 
   return (
     <div className="relative">
@@ -40,10 +39,10 @@ const Programmes = () => {
       <div className="w-full py-24">
         <div className="px-5 sm:px-12 lg:px-24 min-h-96">
           <div className="w-full h-full p-2.5 px-5 flex flex-col md:flex-row gap-5 ">
-            {["MOU's", "Activities", "School Visits"].map((el, i) => (
+            {["MOU's", "Activities"].map((el, i) => (
               <TabButton
                 active={active}
-                activate={i}
+                activate={i === 0}
                 setActive={setActive}
                 key={i}
               >
@@ -52,13 +51,7 @@ const Programmes = () => {
             ))}
           </div>
           <div className="bg-slate-200 mt-2.5 px-2.5 sm:px-5 py-12 my-12 rounded-md">
-            {active === 0 ? (
-              <MOUsTable />
-            ) : active === 1 ? (
-              <ActivitiesTable />
-            ) : (
-              <VisitsTable />
-            )}
+            {active ? <MOUsTable /> : <ActivitiesTable />}
           </div>
         </div>
         <div className="relative">

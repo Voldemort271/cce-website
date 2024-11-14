@@ -2,7 +2,49 @@ import React from "react";
 import Waves from "../../components/waves";
 import SectionHeader from "../../components/section-header";
 import PersonCard from "../../components/people/person-card";
-import HeaderPic from "../../public/header.jpg";
+import Tushar from "../../public/tushar.jpg";
+import Pavin from "../../public/pavin.jpg";
+import Rakesh from "../../public/Rakesh Kumar_1.jpg";
+import Ram from "../../public/ramlal.jpg";
+import { StaticImport } from "next/dist/shared/lib/get-img-props";
+
+interface Person {
+  name: string;
+  position: string;
+  mail?: string;
+  img?: string | StaticImport;
+}
+
+const people: Person[] = [
+  {
+    name: "Tushar Jain",
+    position: "Head CCE",
+    mail: "headcce@iitmandi.ac.in",
+    img: Tushar,
+  },
+  {
+    name: "Pavin Samuel",
+    position: "Junior Superintendent",
+    mail: "pavin@iitmandi.ac.in",
+    img: Pavin,
+  },
+  {
+    name: "Amit Kumar",
+    position: "Junior Assistant",
+    mail: "amit_kumar@iitmandi.ac.in",
+  },
+  {
+    name: "Rakesh Kumar",
+    position: "Office Staff",
+    mail: "cceoffice@iitmandi.ac.in",
+    img: Rakesh,
+  },
+  {
+    name: "Ram Lal",
+    position: "Attendant",
+    img: Ram,
+  },
+];
 
 const PeoplePage = () => {
   return (
@@ -12,37 +54,22 @@ const PeoplePage = () => {
         <div className="flex flex-col gap-12 bg-slate-100 px-5 md:px-12 lg:px-24 pb-24">
           <div className="flex flex-row justify-center flex-wrap gap-5 scale-105">
             <PersonCard
-              name="Person Name"
-              position={"Designation"}
-              mail={"email"}
-              img={HeaderPic}
+              name={people[0].name}
+              position={people[0].position}
+              mail={people[0].mail}
+              img={people[0].img}
             />
           </div>
           <div className="flex flex-row justify-center flex-wrap gap-5">
-            <PersonCard
-              name="Person Name"
-              position={"Designation"}
-              mail={"email"}
-              img={HeaderPic}
-            />
-            <PersonCard
-              name="Person Name"
-              position={"Designation"}
-              mail={"email"}
-              img={HeaderPic}
-            />
-            <PersonCard
-              name="Person Name"
-              position={"Designation"}
-              mail={"email"}
-              img={HeaderPic}
-            />
-            <PersonCard
-              name="Person Name"
-              position={"Designation"}
-              mail={"email"}
-              img={HeaderPic}
-            />
+            {people.slice(1).map((person) => (
+              <PersonCard
+                key={person.name}
+                name={person.name}
+                position={person.position}
+                mail={person.mail}
+                img={person.img}
+              />
+            ))}
           </div>
         </div>
         <div className="relative">
