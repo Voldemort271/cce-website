@@ -51,7 +51,8 @@ const Navbar = () => {
       </Link>
       <div className="hidden sm:flex flex-row gap-12 items-center text-base lg:text-lg font-semibold">
         <Link href={"/people"}>People</Link>
-        <Link href={"/programmes"}>Programmes</Link>
+        <Link href={"/activities"}>Activities</Link>
+        <Link href={"/mous"}>MOUs</Link>
         <Link href={"/contact"}>Contact</Link>
       </div>
       <div
@@ -66,7 +67,8 @@ const Navbar = () => {
         className={`${toggle ? "flex" : "hidden"} transition-all sm:hidden absolute right-0 -bottom-44 text-right w-fit px-12 py-5 backdrop-blur-2xl rounded-xl text-base lg:text-lg font-semibold border ${isShrunk ? "text-slate-900 border-slate-300/[0.5]" : "text-slate-100 border-slate-100/[0.5]"} flex-col gap-2.5`}
       >
         <Link href={"/people"}>People</Link>
-        <Link href={"/programmes"}>Programmes</Link>
+        <Link href={"/activities"}>Activities</Link>
+        <Link href={"/mous"}>MOUs</Link>
         <Link href={"/contact"}>Contact</Link>
       </div>
     </div>
