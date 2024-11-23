@@ -1,4 +1,12 @@
 "use client";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 
 import React, { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
@@ -51,7 +59,36 @@ const Navbar = () => {
       </Link>
       <div className="hidden sm:flex flex-row gap-12 items-center text-base lg:text-lg font-semibold">
         <Link href={"/people"}>People</Link>
-        <Link href={"/activities"}>Activities</Link>
+        <DropdownMenu>
+          <DropdownMenuTrigger className="outline-none">
+            Activities
+          </DropdownMenuTrigger>
+          <DropdownMenuContent className="bg-slate-100/[0.3] font-raleway font-medium backdrop-blur-2xl border border-slate-100/[0.5]">
+            <DropdownMenuLabel>Our Activities</DropdownMenuLabel>
+            <DropdownMenuSeparator className="bg-slate-100/[0.5]" />
+            <DropdownMenuItem>
+              <Link href={"/activities/leadership-training"}>
+                Leadership Training Programme
+              </Link>
+            </DropdownMenuItem>
+            <DropdownMenuItem>
+              <Link href={"/activities/pm-vishwakarma"}>PM Vishwakarma</Link>
+            </DropdownMenuItem>
+            <DropdownMenuItem>
+              <Link href={"/activities/capacity-building"}>
+                Capacity Building Programme
+              </Link>
+            </DropdownMenuItem>
+            <DropdownMenuItem>
+              <Link href={"/activities/short-term-courses"}>
+                Short-term Courses
+              </Link>
+            </DropdownMenuItem>
+            <DropdownMenuItem>
+              <Link href={"/activities/online-courses"}>Online Courses</Link>
+            </DropdownMenuItem>
+          </DropdownMenuContent>
+        </DropdownMenu>
         <Link href={"/mous"}>MOUs</Link>
         <Link href={"/contact"}>Contact</Link>
       </div>
@@ -67,7 +104,36 @@ const Navbar = () => {
         className={`${toggle ? "flex" : "hidden"} transition-all sm:hidden absolute right-0 -bottom-44 text-right w-fit px-12 py-5 backdrop-blur-2xl rounded-xl text-base lg:text-lg font-semibold border ${isShrunk ? "text-slate-900 border-slate-300/[0.5]" : "text-slate-100 border-slate-100/[0.5]"} flex-col gap-2.5`}
       >
         <Link href={"/people"}>People</Link>
-        <Link href={"/activities"}>Activities</Link>
+        <DropdownMenu>
+          <DropdownMenuTrigger className="outline-none">
+            Activities
+          </DropdownMenuTrigger>
+          <DropdownMenuContent className="bg-slate-100/[0.3] font-raleway font-medium backdrop-blur-2xl border border-slate-100/[0.5]">
+            <DropdownMenuLabel>Our Activities</DropdownMenuLabel>
+            <DropdownMenuSeparator className="bg-slate-100/[0.5]" />
+            <DropdownMenuItem>
+              <Link href={"/activities/leadership-training"}>
+                Leadership Training Programme
+              </Link>
+            </DropdownMenuItem>
+            <DropdownMenuItem>
+              <Link href={"/activities/pm-vishwakarma"}>PM Vishwakarma</Link>
+            </DropdownMenuItem>
+            <DropdownMenuItem>
+              <Link href={"/activities/capacity-building"}>
+                Capacity Building Programme
+              </Link>
+            </DropdownMenuItem>
+            <DropdownMenuItem>
+              <Link href={"/activities/short-term-courses"}>
+                Short-term Courses
+              </Link>
+            </DropdownMenuItem>
+            <DropdownMenuItem>
+              <Link href={"/activities/online-courses"}>Online Courses</Link>
+            </DropdownMenuItem>
+          </DropdownMenuContent>
+        </DropdownMenu>
         <Link href={"/mous"}>MOUs</Link>
         <Link href={"/contact"}>Contact</Link>
       </div>
