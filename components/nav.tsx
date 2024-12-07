@@ -57,7 +57,7 @@ const Navbar = () => {
         <Image src={LogoPic} alt={"Logo"} className="w-8 h-8" />
         <div className="font-bold">CCE IIT Mandi</div>
       </Link>
-      <div className="hidden sm:flex flex-row gap-12 items-center text-base lg:text-lg font-semibold">
+      <div className="hidden md:flex flex-row gap-12 items-center text-base lg:text-lg font-semibold">
         <Link href={"/people"}>People</Link>
         <DropdownMenu>
           <DropdownMenuTrigger className="outline-none">
@@ -94,7 +94,7 @@ const Navbar = () => {
         <Link href={"/contact"}>Contact</Link>
       </div>
       <div
-        className="inline sm:hidden cursor-pointer"
+        className="inline md:hidden cursor-pointer"
         onClick={() => {
           setToggle(!toggle);
         }}
@@ -102,7 +102,7 @@ const Navbar = () => {
         {toggle ? <X size={24} /> : <Menu size={24} />}
       </div>
       <div
-        className={`${toggle ? "flex" : "hidden"} transition-all sm:hidden absolute right-0 -bottom-44 text-right w-fit px-12 py-5 backdrop-blur-2xl rounded-xl text-base lg:text-lg font-semibold border ${isShrunk ? "text-slate-900 border-slate-300/[0.5]" : "text-slate-100 border-slate-100/[0.5]"} flex-col gap-2.5`}
+        className={`${toggle ? "flex" : "hidden"} transition-all md:hidden absolute right-0 -bottom-48 text-right w-fit px-12 py-5 backdrop-blur-2xl rounded-xl text-base lg:text-lg font-semibold border ${isShrunk ? "text-slate-900 border-slate-300/[0.5]" : "text-slate-100 border-slate-100/[0.5]"} flex-col gap-2.5`}
       >
         <Link href={"/people"}>People</Link>
         <DropdownMenu>
