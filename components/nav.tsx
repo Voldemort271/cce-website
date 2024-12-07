@@ -90,6 +90,7 @@ const Navbar = () => {
           </DropdownMenuContent>
         </DropdownMenu>
         <Link href={"/mous"}>MOUs</Link>
+        <Link href={"/gallery"}>Gallery</Link>
         <Link href={"/contact"}>Contact</Link>
       </div>
       <div
@@ -135,6 +136,7 @@ const Navbar = () => {
           </DropdownMenuContent>
         </DropdownMenu>
         <Link href={"/mous"}>MOUs</Link>
+        <Link href={"/gallery"}>Gallery</Link>
         <Link href={"/contact"}>Contact</Link>
       </div>
     </div>
