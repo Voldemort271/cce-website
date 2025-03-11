@@ -14,7 +14,7 @@ interface Props {
 const PersonCard = ({ name, position, mail, img }: Props) => {
   return (
     <div className="bg-slate-200 rounded-md lg:px-12 p-5 flex min-w-72 flex-col md:flex-row gap-5 items-center">
-      <div className="w-48 sm:w-52 aspect-square bg-gradient-to-br from-sky-500 to-teal-500 flex justify-center items-center rounded-full shadow-xl shadow-slate-900/[0.2]">
+      <div className="w-44 sm:w-[12.5rem] aspect-square bg-gradient-to-br from-sky-500 to-teal-500 flex justify-center items-center rounded-full shadow-xl shadow-slate-900/[0.2]">
         <Image
           src={img || userPic}
           width={300}
@@ -23,6 +23,7 @@ const PersonCard = ({ name, position, mail, img }: Props) => {
           className="object-cover w-44 sm:w-48 aspect-square rounded-full"
         />
       </div>
+
       <div className="relative flex-col">
         <div className="text-2xl sm:text-4xl font-raleway font-bold text-center sm:text-left">
           {name}

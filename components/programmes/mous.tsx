@@ -4,24 +4,16 @@ import {
   TableBody,
   TableCaption,
   TableCell,
-  TableHead,
-  TableHeader,
   TableRow,
 } from "../../components/ui/table";
+
+// note to self: remove stuff you don't need
 
 const MOUsTable = () => {
   return (
     <div>
       <Table>
-        <TableCaption>All MOUs with IIT Mandi.</TableCaption>
-        <TableHeader>
-          <TableRow>
-            <TableHead className="w-[40px] sm:w-[100px] text-right">
-              Serial no.
-            </TableHead>
-            <TableHead>Details</TableHead>
-          </TableRow>
-        </TableHeader>
+        <TableCaption>All MOUs with CCE, IIT Mandi.</TableCaption>
         <TableBody>
           <TableRow>
             <TableCell className="font-bold text-base  text-right">1</TableCell>

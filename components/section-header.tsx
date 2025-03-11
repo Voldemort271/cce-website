@@ -18,7 +18,8 @@ const SectionHeader = ({ title }: { title: string }) => {
       <div className="text-4xl sm:text-6xl font-raleway font-bold mt-5">
         {title}
       </div>
-      <div className="text-xl sm:text-2xl font-raleway font-bold text-slate-300">
+      <br />
+      <div className="text-xl sm:text-2xl font-raleway text-slate-300">
         Centre for Continuing Education, IIT Mandi
       </div>
       <div className="absolute bottom-0 left-0 w-screen h-fit">

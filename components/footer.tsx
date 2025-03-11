@@ -53,7 +53,7 @@ const Footer = () => {
 
         <div className="text-slate-3 text-center">
           <div className="font-medium text-slate-800">
-            Copyright &copy; IIT Mandi, 2025. All rights reserved.
+            Copyright &copy; CCE, IIT Mandi, 2025. All rights reserved.
           </div>
         </div>
       </div>

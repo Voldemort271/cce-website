@@ -13,10 +13,15 @@ const ContactsPage = () => {
             Indian Institute of Technology Mandi
             <br />
             Himachal Pradesh -175075 <br />
-            Email: cceoffice@iitmandi.ac.in <br />
+            Email:{" "}
+            <a href="mailto:cceoffice@iitmandi.ac.in">
+              cceoffice@iitmandi.ac.in
+            </a>{" "}
+            <br />
             Phone: 01905-267742,267788
             <br />
           </div>
+          <br />
           {/* Embedded Google Map */}
           <div className="w-full">
             <iframe
