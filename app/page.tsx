@@ -3,16 +3,11 @@ import InfoSection from "../components/home/info-section";
 import AboutCard from "../components/home/about-card";
 import ActivitiesSection from "../components/home/activities-section";
 import Waves from "../components/waves";
-import DocsSection from "@/components/home/documents-section";
 
 export default function Home() {
   return (
     <div className="relative">
       <Header />
-      {/*<StatsCard />*/}
-      {/* <div className="p-24 flex flex-col justify-center items-center">
-        <DocsSection />
-      </div> */}
       <div className="w-full pb-24">
         {/* <Waves color={"#E2E8F0"} /> */}
         <div className="relative">
