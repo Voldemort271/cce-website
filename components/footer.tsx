@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { FaYoutube, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
 import HeaderPic from "../public/header.jpg";
 
 const Footer = () => {
@@ -13,7 +14,7 @@ const Footer = () => {
       <div className="w-full h-10 md:h-24"></div>
       <div className="flex flex-col px-12 pt-24 pb-5 gap-12 w-full">
         <div className="flex flex-col md:flex-row gap-24 sm:gap-5 justify-center items-start text-slate-100">
-          <div className=" w-full max-w-screen-sm flex-col gap-2.5 items-center justify-center text-center">
+          <div className="w-full max-w-screen-sm flex-col gap-2.5 items-center justify-center text-center">
             <div className="font-raleway text-4xl font-bold">Contact Us</div>
             <div className="text-xl">
               Centre for Continuing Education, <br />
@@ -24,8 +25,32 @@ const Footer = () => {
               Phone: 01905-267742,267788
               <br />
             </div>
+            <div className="flex justify-center gap-6 mt-4 text-2xl">
+              <a
+                href="https://example.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaLinkedin className="text-white hover:opacity-75 transition" />
+              </a>
+              <a
+                href="https://example.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaYoutube className="text-white hover:opacity-75 transition" />
+              </a>
+              <a
+                href="https://example.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaTwitter className="text-white hover:opacity-75 transition" />
+              </a>
+            </div>
           </div>
         </div>
+
         <div className="text-slate-3 text-center">
           <div className="font-medium text-slate-800">
             Copyright &copy; IIT Mandi, 2025. All rights reserved.
