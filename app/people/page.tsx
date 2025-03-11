@@ -6,6 +6,7 @@ import Tushar from "../../public/tushar.jpg";
 import Pavin from "../../public/pavin.jpg";
 import Rakesh from "../../public/Rakesh Kumar_1.jpg";
 import Ram from "../../public/ramlal.jpg";
+import Aakash from "../../public/aakash.jpg";
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
 
 interface Person {
@@ -27,6 +28,12 @@ const people: Person[] = [
     position: "Junior Superintendent",
     mail: "pavin@iitmandi.ac.in",
     img: Pavin,
+  },
+  {
+    name: "Aakash Gautam",
+    position: "JLA (Tech)",
+    mail: "aakashgautam@iitmandi.ac.in",
+    img: Aakash,
   },
   {
     name: "Amit Kumar",

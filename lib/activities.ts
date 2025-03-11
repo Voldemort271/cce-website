@@ -134,4 +134,100 @@ export const activities = [
     name: "Online Course 5",
     details: "Basics of blockchain technology and applications.",
   },
+  {
+    category: "fdps",
+    name: "Faculty Development Program 1",
+    details:
+      "Enhancing leadership qualities through strategic decision-making and problem-solving exercises.",
+  },
+  {
+    category: "fdps",
+    name: "Faculty Development Program 2",
+    details:
+      "Exploring innovative teaching methodologies to foster engagement and academic excellence.",
+  },
+  {
+    category: "fdps",
+    name: "Faculty Development Program 3",
+    details:
+      "Developing effective communication and collaboration skills for academic growth.",
+  },
+  {
+    category: "fdps",
+    name: "Faculty Development Program 4",
+    details:
+      "Leveraging technology in education to enhance learning experiences and student interactions.",
+  },
+  {
+    category: "conferences",
+    name: "International Research Conference 2025",
+    details:
+      "A platform for researchers and academicians to present their latest findings and innovations",
+  },
+  {
+    category: "conferences",
+    name: "AI & Machine Learning Symposium",
+    details:
+      "An in-depth discussion on the latest trends, breakthroughs, and challenges in AI and ML",
+  },
+  {
+    category: "conferences",
+    name: "Hands-on IoT Workshop",
+    details:
+      "A practical session focused on developing real-world IoT applications using sensors, and cloud computing.",
+  },
+  {
+    category: "gian-courses",
+    name: "Advanced Robotics and Automation",
+    details:
+      "A specialized course covering robotic control, and applications in modern industries.",
+  },
+  {
+    category: "gian-courses",
+    name: "Quantum Computing: Principles and Applications",
+    details:
+      "An introduction to quantum computing, implications in computing advancements.",
+  },
+  {
+    category: "gian-courses",
+    name: "Big Data Analytics for Engineers",
+    details:
+      "A deep dive into data science techniques, machine learning models, and data-driven decision-making strategies.",
+  },
+  {
+    category: "nptel-courses",
+    name: "Programming in Python",
+    details:
+      "A comprehensive guide to Python programming, covering basic syntax, data structures, and application development.",
+  },
+  {
+    category: "nptel-courses",
+    name: "Digital Signal Processing",
+    details:
+      "A technical course focusing on signal transformation, filtering techniques, and their applications in modern electronics.",
+  },
+  {
+    category: "nptel-courses",
+    name: "Cybersecurity and Ethical Hacking",
+    details:
+      "An essential course on network security, penetration testing, and ethical hacking principles.",
+  },
+  {
+    category: "school-visits",
+    name: "STEM Awareness Program",
+    details:
+      "A school outreach initiative aimed at sparking interest in science, technology, engineering, and mathematics among students.",
+  },
+  {
+    category: "school-visits",
+    name: "Coding Bootcamp for Beginners",
+    details:
+      "An interactive session introducing school students to the fundamentals of coding and problem-solving.",
+  },
+  {
+    category: "school-visits",
+    name: "Renewable Energy Awareness Drive",
+    details:
+      "An educational visit to promote awareness about sustainable energy sources and environmental conservation.",
+  },
 ];
