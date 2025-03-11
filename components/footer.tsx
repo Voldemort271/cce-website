@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { FaYoutube, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
+import { FaYoutube, FaTwitter, FaLinkedin } from "react-icons/fa";
 import HeaderPic from "../public/header.jpg";
 
 const Footer = () => {
