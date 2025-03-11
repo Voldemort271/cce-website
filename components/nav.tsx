@@ -76,7 +76,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`font-raleway transition-all mx-5 lg:mx-12 my-2.5 lg:my-5 rounded-full flex flex-row justify-between items-center gap-5 border bg-gradient-to-br from-[#295960] to-[#3a7289] px-12 py-2.5 sm:py-5 text-slate-100 border-slate-100/[0.5] shadow-2xl shadow-zinc-900/[0.1]`}
+      className={`font-raleway transition-all mx-5 lg:mx-12 my-2.5 lg:my-5 rounded-full flex flex-row justify-between items-center gap-5 border bg-[#48829e] px-12 py-2.5 sm:py-5 text-slate-100 border-slate-100/[0.5] shadow-2xl shadow-zinc-900/[0.1]`}
     >
       <Link href={"/"} className="flex flex-row gap-2.5 items-center">
         <Image src={IITPic} alt={"Logo"} className="h-8 w-12 object-cover" />

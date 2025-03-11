@@ -4,11 +4,11 @@
 @tailwind utilities;
 
 html {
-	@apply overscroll-none
+	@apply overscroll-none overflow-x-hidden
 }
 
 body {
-	@apply bg-slate-100 text-slate-900 text-base font-sans w-screen h-full
+	@apply bg-slate-100 text-slate-900 text-base font-sans w-screen h-full overflow-x-hidden
 }
 
 @layer base {

@@ -42,7 +42,7 @@ const people: Person[] = [
   },
   {
     name: "Rakesh Kumar",
-    position: "Office Staff",
+    position: "Office Assistant",
     mail: "cceoffice@iitmandi.ac.in",
     img: Rakesh,
   },
