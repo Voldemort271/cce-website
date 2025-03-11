@@ -130,6 +130,46 @@ const Navbar = () => {
                   Online Courses
                 </Link>
               </DropdownMenuItem>
+              <DropdownMenuItem>
+                <Link
+                  onClick={() => setIsOpen(false)}
+                  href={"/activities/fdps"}
+                >
+                  Faculty Development Programs (FDPs)
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem>
+                <Link
+                  onClick={() => setIsOpen(false)}
+                  href={"/activities/conferences"}
+                >
+                  Conferences, Workshops & Symposiums
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem>
+                <Link
+                  onClick={() => setIsOpen(false)}
+                  href={"/activities/gian-courses"}
+                >
+                  GIAN Courses
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem>
+                <Link
+                  onClick={() => setIsOpen(false)}
+                  href={"/activities/nptel-courses"}
+                >
+                  NPTEL Courses
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem>
+                <Link
+                  onClick={() => setIsOpen(false)}
+                  href={"/activities/school-visits"}
+                >
+                  School Visits
+                </Link>
+              </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
         </div>
