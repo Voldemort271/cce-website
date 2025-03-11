@@ -7,6 +7,8 @@ import {
   TableRow,
 } from "../../components/ui/table";
 
+// note to self: remove stuff you don't need
+
 const MOUsTable = () => {
   return (
     <div>
