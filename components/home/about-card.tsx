@@ -11,19 +11,20 @@ const AboutCard = () => {
           About CCE, IIT Mandi
         </div>
         <div className="max-w-screen-md">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquam
-          pretium velit, a dictum quam faucibus non. Nam a sapien imperdiet,
-          vehicula augue et, ultrices ex. Sed ut nunc sit amet sem ultricies
-          viverra a eu turpis. Praesent congue lobortis gravida. Nam ac tempus
-          orci. Aliquam non aliquet metus. Maecenas sit amet turpis dignissim
-          metus dapibus porttitor. Suspendisse potenti. Etiam rutrum diam vitae
-          ex finibus, eget facilisis diam ornare. Ut consectetur ex non interdum
-          imperdiet. Duis et orci dui. Aliquam in tortor odio. Mauris vitae dui
-          eleifend diam ornare molestie sed sed lectus. Lorem ipsum dolor sit
-          amet, consectetur adipiscing elit. Sed aliquam pretium velit, a dictum
-          quam faucibus non. Nam a sapien imperdiet, vehicula augue et, ultrices
-          ex. Sed ut nunc sit amet sem ultricies viverra a eu turpis. Praesent
-          congue lobortis gravida.
+          The Centre for Continuing Education (CCE) was established in early
+          2022 at IIT Mandi to dedicatedly cater for the national requirement
+          for skilling, up-skilling, and re-skilling of individuals from various
+          Govt./Semi Govt. organizations, public and private undertakings,
+          research institutions and industries. A variety of continuing
+          education programmes have been organized fulfilling the needs for
+          nation-building at all levels starting from elementary schools to
+          dropouts to working professionals from diverse backgrounds so that
+          learners around the globe can get opportunities to gain knowledge
+          and/or develop professional growth skill sets. CCE also provides
+          necessary logistics, and administrative support to run such programs.
+          All institute academic outreach activities like Conferences,
+          Workshops, Symposia, Short-term courses, Training programs, and other
+          similar activities are executed under the umbrella of the CCE.
         </div>
       </div>
       <div className="flex-shrink-0 w-full md:w-64 lg:w-96 aspect-square relative rounded-full transition-all hover:scale-110">

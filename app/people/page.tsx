@@ -19,7 +19,7 @@ interface Person {
 const people: Person[] = [
   {
     name: "Tushar Jain",
-    position: "Head CCE",
+    position: "Head CCE, IIT Mandi",
     mail: "headcce@iitmandi.ac.in",
     img: Tushar,
   },

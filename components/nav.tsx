@@ -8,11 +8,11 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
-import LogoPic from "../public/logo.png";
-import IITPic from "../public/iitmd-bg.jpg";
+import LogoPic from "../public/cce-mono.png";
+import IITPic from "../public/iitmd-mono.png";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 
@@ -24,6 +24,27 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   const pathname = usePathname();
+
+  const navbarRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    function handleClickOutside(event: MouseEvent) {
+      if (
+        navbarRef.current &&
+        !navbarRef.current.contains(event.target as Node)
+      ) {
+        setToggle(false); // Close the navbar if clicked outside
+      }
+    }
+
+    if (toggle) {
+      document.addEventListener("mousedown", handleClickOutside);
+    } else {
+      document.removeEventListener("mousedown", handleClickOutside);
+    }
+
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, [toggle, setToggle]);
 
   useEffect(() => {
     setHeight((5 * window.innerHeight) / 10);
@@ -55,11 +76,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`font-raleway transition-all mx-5 lg:mx-12 my-2.5 lg:my-5 rounded-full flex flex-row justify-between items-center gap-5 border backdrop-blur-2xl px-12 py-2.5 sm:py-5 ${
-        isShrunk
-          ? "text-slate-900 border-slate-300/[0.5]"
-          : "text-slate-100 border-slate-100/[0.5]"
-      } shadow-2xl shadow-zinc-900/[0.1]`}
+      className={`font-raleway transition-all mx-5 lg:mx-12 my-2.5 lg:my-5 rounded-full flex flex-row justify-between items-center gap-5 border bg-gradient-to-br from-[#295960] to-[#3a7289] px-12 py-2.5 sm:py-5 text-slate-100 border-slate-100/[0.5] shadow-2xl shadow-zinc-900/[0.1]`}
     >
       <Link href={"/"} className="flex flex-row gap-2.5 items-center">
         <Image src={IITPic} alt={"Logo"} className="h-8 w-12 object-cover" />
@@ -205,6 +222,7 @@ const Navbar = () => {
         {toggle ? <X size={24} /> : <Menu size={24} />}
       </div>
       <div
+        ref={navbarRef}
         className={`${
           toggle ? "flex" : "hidden"
         } bg-slate-100/[0.3] backdrop-blur transition-all md:hidden absolute right-0 -bottom-48 text-right w-fit px-12 py-5 rounded-xl text-base lg:text-lg font-semibold border ${
