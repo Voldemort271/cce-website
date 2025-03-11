@@ -16,7 +16,7 @@ const Footer = () => {
           <div className=" w-full max-w-screen-sm flex-col gap-2.5 items-center justify-center text-center">
             <div className="font-raleway text-4xl font-bold">Contact Us</div>
             <div className="text-xl">
-              Centre of Continuing Education, <br />
+              Centre for Continuing Education, <br />
               Indian Institute of Technology Mandi
               <br />
               Himachal Pradesh -175075 <br />
@@ -28,7 +28,7 @@ const Footer = () => {
         </div>
         <div className="text-slate-3 text-center">
           <div className="font-medium text-slate-800">
-            Copyright &copy; IIT Mandi, 2024. All rights reserved.
+            Copyright &copy; IIT Mandi, 2025. All rights reserved.
           </div>
         </div>
       </div>

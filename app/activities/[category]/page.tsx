@@ -5,11 +5,12 @@ import { usePathname } from "next/navigation";
 import SectionHeader from "../../../components/section-header";
 import { activities as data } from "../../../lib/activities";
 import ActivityCard from "@/components/programmes/activity-card";
+import Waves from "@/components/waves";
 
 function toTitleCase(str: string) {
   return str.replace(
     /\w\S*/g,
-    (text) => text.charAt(0).toUpperCase() + text.substring(1).toLowerCase(),
+    (text) => text.charAt(0).toUpperCase() + text.substring(1).toLowerCase()
   );
 }
 
@@ -21,7 +22,7 @@ const MOUs = () => {
 
   useEffect(() => {
     setActivities(
-      data.filter((activity) => activity.category === path.split("/")[2]),
+      data.filter((activity) => activity.category === path.split("/")[2])
     );
   }, [path]);
 
@@ -43,7 +44,9 @@ const MOUs = () => {
           </div>
         </div>
         <div className="relative">
-          <div className="absolute -bottom-10 md:-bottom-24 left-1/2 -translate-x-1/2 rotate-180 z-10 bg-none"></div>
+          <div className="absolute -bottom-10 md:-bottom-24 left-1/2 -translate-x-1/2 rotate-180 z-10">
+            <Waves color={"#F1F5F9"} /> {/* Added Waves here */}
+          </div>
         </div>
       </div>
     </div>
