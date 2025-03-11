@@ -9,6 +9,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 
 import React, { useEffect, useState } from "react";
+import { Menu, X } from "lucide-react";
 import Link from "next/link";
 import LogoPic from "../public/logo.png";
 import IITPic from "../public/iitmd-bg.jpg";
@@ -19,6 +20,9 @@ const Navbar = () => {
   const [height, setHeight] = useState(0);
   const [isShrunk, setShrunk] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
+  const [isOpen1, setIsOpen1] = useState(false);
+  const [toggle, setToggle] = useState(false);
+
   const pathname = usePathname();
 
   useEffect(() => {
@@ -187,6 +191,183 @@ const Navbar = () => {
               ? "bg-white text-black"
               : "hover:bg-white/20"
           }`}
+        >
+          Contact
+        </Link>
+      </div>
+      <div
+        className="inline md:hidden cursor-pointer"
+        onClick={() => {
+          setToggle(!toggle);
+          console.log(toggle);
+        }}
+      >
+        {toggle ? <X size={24} /> : <Menu size={24} />}
+      </div>
+      <div
+        className={`${
+          toggle ? "flex" : "hidden"
+        } bg-slate-100/[0.3] backdrop-blur transition-all md:hidden absolute right-0 -bottom-48 text-right w-fit px-12 py-5 rounded-xl text-base lg:text-lg font-semibold border ${
+          isShrunk
+            ? "text-slate-900 border-slate-300/[0.5]"
+            : "text-slate-100 border-slate-100/[0.5]"
+        } flex-col gap-2.5`}
+      >
+        <Link
+          href={"/people"}
+          className={`outline-none rounded-lg px-3 py-1 transition-all ${
+            pathname.startsWith("/people")
+              ? "bg-white text-black"
+              : "hover:bg-white/20"
+          }`}
+          onClick={() => setToggle(false)}
+        >
+          People
+        </Link>
+        <DropdownMenu open={isOpen1} onOpenChange={setIsOpen1}>
+          <DropdownMenuTrigger
+            className={`outline-none rounded-lg px-3 py-1 transition-all ${
+              pathname.startsWith("/activities")
+                ? "bg-white text-black"
+                : "hover:bg-white/20"
+            }`}
+          >
+            Activities
+          </DropdownMenuTrigger>
+          <DropdownMenuContent className="bg-slate-100/[0.3] font-raleway font-medium backdrop-blur-2xl border border-slate-100/[0.5]">
+            <DropdownMenuLabel>Activities</DropdownMenuLabel>
+            <DropdownMenuSeparator className="bg-slate-100/[0.5]" />
+            <DropdownMenuItem>
+              <Link
+                onClick={() => {
+                  setToggle(false);
+                  setIsOpen1(false);
+                }}
+                href={"/activities/leadership-training"}
+              >
+                Leadership Training Programme
+              </Link>
+            </DropdownMenuItem>
+            <DropdownMenuItem>
+              <Link
+                onClick={() => {
+                  setToggle(false);
+                  setIsOpen1(false);
+                }}
+                href={"/activities/pm-vishwakarma"}
+              >
+                PM Vishwakarma
+              </Link>
+            </DropdownMenuItem>
+            <DropdownMenuItem>
+              <Link
+                onClick={() => {
+                  setToggle(false);
+                  setIsOpen1(false);
+                }}
+                href={"/activities/capacity-building"}
+              >
+                Capacity Building Programme
+              </Link>
+            </DropdownMenuItem>
+            <DropdownMenuItem>
+              <Link
+                onClick={() => {
+                  setToggle(false);
+                  setIsOpen1(false);
+                }}
+                href={"/activities/short-term-courses"}
+              >
+                Short-term Courses
+              </Link>
+            </DropdownMenuItem>
+            <DropdownMenuItem>
+              <Link
+                onClick={() => {
+                  setToggle(false);
+                  setIsOpen1(false);
+                }}
+                href={"/activities/online-courses"}
+              >
+                Online Courses
+              </Link>
+            </DropdownMenuItem>
+            <DropdownMenuItem>
+              <Link
+                onClick={() => {
+                  setToggle(false);
+                  setIsOpen1(false);
+                }}
+                href={"/activities/fdps"}
+              >
+                Faculty Development Programs (FDPs)
+              </Link>
+            </DropdownMenuItem>
+            <DropdownMenuItem>
+              <Link
+                onClick={() => {
+                  setToggle(false);
+                  setIsOpen1(false);
+                }}
+                href={"/activities/conferences"}
+              >
+                Conferences, Workshops & Symposiums
+              </Link>
+            </DropdownMenuItem>
+            <DropdownMenuItem>
+              <Link
+                onClick={() => {
+                  setToggle(false);
+                  setIsOpen1(false);
+                }}
+                href={"/activities/gian-courses"}
+              >
+                GIAN Courses
+              </Link>
+            </DropdownMenuItem>
+            <DropdownMenuItem>
+              <Link
+                onClick={() => {
+                  setToggle(false);
+                  setIsOpen1(false);
+                }}
+                href={"/activities/nptel-courses"}
+              >
+                NPTEL Courses
+              </Link>
+            </DropdownMenuItem>
+            <DropdownMenuItem>
+              <Link
+                onClick={() => {
+                  setToggle(false);
+                  setIsOpen1(false);
+                }}
+                href={"/activities/school-visits"}
+              >
+                School Visits
+              </Link>
+            </DropdownMenuItem>
+          </DropdownMenuContent>
+        </DropdownMenu>
+        <Link
+          href={"/mous"}
+          className={`outline-none rounded-lg px-3 py-1 transition-all ${
+            pathname.startsWith("/mous")
+              ? "bg-white text-black"
+              : "hover:bg-white/20"
+          }`}
+          onClick={() => setToggle(false)}
+        >
+          MOUs
+        </Link>
+        <Link
+          href={"/contact"}
+          className={`outline-none rounded-lg px-3 py-1 transition-all ${
+            pathname.startsWith("/contact")
+              ? "bg-white text-black"
+              : "hover:bg-white/20"
+          }`}
+          onClick={() => setToggle(false)}
         >
           Contact
         </Link>
