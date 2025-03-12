@@ -14,7 +14,7 @@ export default function Home() {
           <div className="py-12 px-24 flex flex-col justify-center items-center">
             <ActivitiesSection />
           </div>
-          <div className="absolute -bottom-10 md:-bottom-24 left-1/2 -translate-x-1/2 z-10">
+          <div className="absolute -bottom-[6rem] md:-bottom-24 left-1/2 -translate-x-1/2 z-10">
             <Waves color={"#E2E8F0"} />
           </div>
         </div>
