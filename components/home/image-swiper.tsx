@@ -32,12 +32,9 @@ const ImageSwiper = () => {
                     className="w-[100%] sm:w-[80%] sm:h-[80%] md:w-[90%] lg:w-[700px] lg:h-[400px] object-cover rounded-lg"
                     id="img"
                   />
-                  <Link
-                    href={elem.mainLink}
-                    style={{ marginTop: "10px", marginBottom: "10px" }}
-                  >
+                  <p style={{ marginTop: "10px", marginBottom: "10px" }}>
                     <p>{elem.mainLinkData}</p>
-                  </Link>
+                  </p>
                 </div>
               </div>
             </SwiperSlide>

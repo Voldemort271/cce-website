@@ -9,82 +9,56 @@ const ActivitiesSection = () => {
       </div>
       <div className="w-full my-5 flex flex-wrap justify-center gap-5">
         <div className="bg-slate-300 rounded-md p-5 min-w-72 items-center">
-          <center>Digital Foundations: Mastering OS, Networks & IoT</center>
-
-          <Link
-            href={
-              "https://drive.google.com/file/d/15_oDar0g0fkG68BAc7E9M4rEY8wjfXZx/view?usp=sharing"
-            }
-            target="_blank"
-            style={{ color: "blue" }}
-          >
-            <center>Link</center>
-          </Link>
-          <Link
-            href={
-              "https://drive.google.com/file/d/15_oDar0g0fkG68BAc7E9M4rEY8wjfXZx/view?usp=sharing"
-            }
-            target="_blank"
-            style={{ color: "blue" }}
-          >
-            <center>Download Brochure</center>
-          </Link>
-        </div>
-        <div className="bg-slate-300 rounded-md p-5 min-w-72 items-center">
           <center>
-            Hands-on training on High-Performance Scientific Computing (HPSC)
+            A Five-day GIAN course on DATA-BASED SYSTEMS AND CONTROL at IIT
+            Mandi
           </center>
-          <Link
-            href={
-              "https://drive.google.com/file/d/1fEc6SkCx3dbNiAq0cYtDgi6bl2pwa3AW/view?usp=sharing"
-            }
-            target="_blank"
-            style={{ color: "blue" }}
-          >
-            <center> Link</center>
-          </Link>
-          <Link
-            href={
-              "https://drive.google.com/file/d/1fEc6SkCx3dbNiAq0cYtDgi6bl2pwa3AW/view?usp=sharing"
-            }
-            target="_blank"
-            style={{ color: "blue" }}
-          >
-            <center>Download Brochure</center>
-          </Link>
-        </div>
-        <div className="bg-slate-300 rounded-md p-5 min-w-72">
-          <center>Hands on IoT- Workshop</center>
 
           <Link
             href={
-              "https://drive.google.com/file/d/1aOCGyUVDmS4w5sy7Rm7E95h6OHBKUckY/view?usp=drive_link"
+              "https://sites.google.com/iitmandi.ac.in/data-based-systems-control/home"
+            }
+            target="_blank"
+            style={{ color: "blue" }}
+          >
+            <center>Website</center>
+          </Link>
+          <Link
+            href={"https://www.youtube.com/@cce-iitmandi"}
+            target="_blank"
+            style={{ color: "blue" }}
+          >
+            <center>Livestream</center>
+          </Link>
+        </div>
+
+        <div className="bg-slate-300 rounded-md p-5 min-w-72">
+          <center>
+            GIAN course on Wetting, Capillarity, and Phase Transitions:
+            Experiments and Simulations.
+          </center>
+
+          <Link
+            href={
+              "https://www.iitmandi.ac.in/pdf/announcements/GIAN_course_brochure.pdf"
             }
             target={"_blank"}
             style={{ color: "blue" }}
           >
-            <center>Link</center>
-          </Link>
-          <Link
-            href={
-              "https://drive.google.com/file/d/1aOCGyUVDmS4w5sy7Rm7E95h6OHBKUckY/view?usp=drive_link"
-            }
-            target={"_blank"}
-            style={{ color: "blue" }}
-          >
-            <center>Download Brochure</center>
+            <center>Brochure</center>
           </Link>
         </div>
         <div className="bg-slate-300 rounded-md p-5 min-w-72">
           <center>
-            Mastering 3D Printing: From Basics to Advanced Techniques
+            A Hands-on Workshop on Composites Design and Manufacturing
           </center>
 
-          <Link href={"/"} style={{ color: "blue" }}>
-            <center>Link</center>
-          </Link>
-          <Link href={"/"} style={{ color: "blue" }}>
-            <center>Download Brochure</center>
+          <Link
+            href="https://research.iitmandi.ac.in/cdpmhm2025/doc/5D%20CDM%20HW%202025%20Brochure.pdf"
+            style={{ color: "blue" }}
+            target="_blank"
+          >
+            <center>Brochure</center>
           </Link>
         </div>
         <div className="bg-slate-300 rounded-md p-5 min-w-72">
@@ -93,16 +67,13 @@ const ActivitiesSection = () => {
           </center>
 
           <Link
-            href={"https://bsates.tech/prayas.html"}
+            href={
+              "https://www.iitmandi.ac.in/pdf/announcements/PRAYAS_3_Brochure.pdf"
+            }
             style={{ color: "blue" }}
+            target="_blank"
           >
-            <center>Link</center>
-          </Link>
-          <Link
-            href={"https://bsates.tech/prayas.html"}
-            style={{ color: "blue" }}
-          >
-            <center>Download Brochure</center>
+            <center>Brochure</center>
           </Link>
         </div>
       </div>

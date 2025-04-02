@@ -40,14 +40,14 @@ const Footer = () => {
             </div>
             <div className="flex justify-center gap-6 mt-4 text-2xl">
               <a
-                href="https://example.com"
+                href="https://www.linkedin.com/company/cce-iitmandi"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedin className="text-white hover:opacity-75 transition" />
               </a>
               <a
-                href="https://example.com"
+                href="https://www.youtube.com/@cce-iitmandi"
                 target="_blank"
                 rel="noopener noreferrer"
               >
