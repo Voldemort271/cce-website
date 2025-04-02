@@ -240,5 +240,7 @@ export const activities = [
   },
   {
     category: "exposure-gateway-day",
+    name: "Heading",
+    details: "Content Here",
   },
 ];

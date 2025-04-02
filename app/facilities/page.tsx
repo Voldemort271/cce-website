@@ -18,7 +18,7 @@ const Facilities = () => {
                 key={idx}
                 className="w-[450px] h-[253px] rounded-xl"
               />
-              <h1 style={{ fontSize: "35px", marginTop: "25px" }}>
+              <h1 style={{ fontSize: "35px", marginTop: "25px" }} key={idx}>
                 <b>{elem.mainText}</b>
               </h1>
               <p
@@ -28,6 +28,7 @@ const Facilities = () => {
                   paddingLeft: "45px",
                   paddingRight: "45px",
                 }}
+                key={idx}
               >
                 {elem.subText}
               </p>

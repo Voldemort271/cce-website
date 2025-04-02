@@ -14,9 +14,9 @@ const MOUsTable = () => {
       <Table>
         <TableCaption>All MOUs with CCE, IIT Mandi.</TableCaption>
         <TableBody>
-          {mou.map((elem) => (
+          {mou.map((elem, idx) => (
             <TableRow>
-              <TableCell className="font-bold text-base text-right">
+              <TableCell className="font-bold text-base text-right" key={idx}>
                 {elem.number}
               </TableCell>
               <TableCell>
@@ -25,6 +25,7 @@ const MOUsTable = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-600 hover:underline"
+                  key={idx}
                 >
                   {elem.name}
                 </a>
