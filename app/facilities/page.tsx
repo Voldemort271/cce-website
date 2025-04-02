@@ -16,7 +16,7 @@ const Facilities = () => {
                 src={elem.imageLink}
                 alt={elem.mainText}
                 key={idx}
-                className="w-[400px]"
+                className="w-[450px] h-[253px] rounded-xl"
               />
               <h1 style={{ fontSize: "35px", marginTop: "25px" }}>
                 <b>{elem.mainText}</b>

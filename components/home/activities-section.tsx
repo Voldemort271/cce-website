@@ -13,23 +13,25 @@ const ActivitiesSection = () => {
             A Five-day GIAN course on DATA-BASED SYSTEMS AND CONTROL at IIT
             Mandi
           </center>
-
-          <Link
-            href={
-              "https://sites.google.com/iitmandi.ac.in/data-based-systems-control/home"
-            }
-            target="_blank"
-            style={{ color: "blue" }}
-          >
-            <center>Website</center>
-          </Link>
-          <Link
-            href={"https://www.youtube.com/@cce-iitmandi"}
-            target="_blank"
-            style={{ color: "blue" }}
-          >
-            <center>Livestream</center>
-          </Link>
+          <div className="flex justify-center">
+            <Link
+              href={
+                "https://sites.google.com/iitmandi.ac.in/data-based-systems-control/home"
+              }
+              target="_blank"
+              style={{ color: "blue" }}
+              className="mr-7"
+            >
+              <center>Website</center>
+            </Link>
+            <Link
+              href={"https://www.youtube.com/@cce-iitmandi"}
+              target="_blank"
+              style={{ color: "blue" }}
+            >
+              <center>Livestream</center>
+            </Link>
+          </div>
         </div>
 
         <div className="bg-slate-300 rounded-md p-5 min-w-72">
