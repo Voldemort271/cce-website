@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import {
   Card,
   CardDescription,
@@ -19,6 +20,15 @@ const ActivityCard = ({ name, desc }: Props) => {
         <CardDescription className="text-base text-slate-600">
           {desc}
         </CardDescription>
+        <Link href="#" className="underline" style={{ color: "blue" }}>
+          Link1
+        </Link>
+        <Link href="#" className="underline" style={{ color: "blue" }}>
+          Link1
+        </Link>
+        <Link href="#" className="underline" style={{ color: "blue" }}>
+          Link1
+        </Link>
       </CardHeader>
     </Card>
   );

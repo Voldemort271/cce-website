@@ -1,0 +1,11 @@
+@media (max-width:"700px"){
+    #div{
+        width:"100%";
+        margin:none
+    }
+    #img{
+        height: 700px;
+        width: 200px;
+        transform: scale(1.1);
+    }
+}

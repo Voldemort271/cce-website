@@ -21,9 +21,22 @@ const Footer = () => {
               Indian Institute of Technology Mandi
               <br />
               Himachal Pradesh -175075 <br />
-              Email: cceoffice@iitmandi.ac.in <br />
+              <a
+                href="mailto:cceoffice@iitmandi.ac.in"
+                className="hover:underline"
+              >
+                Email: cceoffice@iitmandi.ac.in
+              </a>{" "}
+              <br />
               Phone: 01905-267742,267788
               <br />
+              <a
+                href="https://www.google.com/maps?q=31.781483,76.994398"
+                target="_blank"
+                style={{ textDecoration: "underline" }}
+              >
+                Find CCE on Google Maps
+              </a>
             </div>
             <div className="flex justify-center gap-6 mt-4 text-2xl">
               <a
