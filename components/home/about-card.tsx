@@ -7,7 +7,7 @@ const AboutCard = () => {
   return (
     <div className="px-5 sm:px-12 md:px-24 py-12 flex flex-col lg:flex-row gap-12 items-center">
       <div className="flex flex-col gap-5 flex-shrink">
-        <div className="font-raleway text-4xl sm:text-6xl font-bold bg-gradient-to-r from-sky-600 to-teal-600 inline-block text-transparent bg-clip-text">
+        <div className="font-raleway text-2xl sm:text-4xl font-bold bg-gradient-to-r from-sky-600 to-teal-600 inline-block text-transparent bg-clip-text">
           About CCE, IIT Mandi
         </div>
         <div className="max-w-screen-md">

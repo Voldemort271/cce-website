@@ -212,22 +212,35 @@ export const activities = [
     details:
       "An essential course on network security, penetration testing, and ethical hacking principles.",
   },
+
   {
-    category: "school-visits",
-    name: "STEM Awareness Program",
-    details:
-      "A school outreach initiative aimed at sparking interest in science, technology, engineering, and mathematics among students.",
+    category: "msme-courses",
+    name: "Heading",
+    details: "Content Here",
   },
   {
-    category: "school-visits",
-    name: "Coding Bootcamp for Beginners",
-    details:
-      "An interactive session introducing school students to the fundamentals of coding and problem-solving.",
+    category: "msme-courses",
+    name: "Heading",
+    details: "Content Here",
   },
   {
-    category: "school-visits",
-    name: "Renewable Energy Awareness Drive",
-    details:
-      "An educational visit to promote awareness about sustainable energy sources and environmental conservation.",
+    category: "msme-courses",
+    name: "Heading",
+    details: "Content Here",
+  },
+  {
+    category: "msme-courses",
+    name: "Heading",
+    details: "Content Here",
+  },
+  {
+    category: "msme-courses",
+    name: "Heading",
+    details: "Content Here",
+  },
+  {
+    category: "exposure-gateway-day",
+    name: "Heading",
+    details: "Content Here",
   },
 ];

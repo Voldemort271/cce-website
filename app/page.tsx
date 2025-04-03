@@ -3,16 +3,22 @@ import InfoSection from "../components/home/info-section";
 import AboutCard from "../components/home/about-card";
 import ActivitiesSection from "../components/home/activities-section";
 import Waves from "../components/waves";
+import ImageSwiper from "@/components/home/image-swiper";
 
 export default function Home() {
   return (
     <div className="relative">
       <Header />
       <div className="w-full pb-24">
-        {/* <Waves color={"#E2E8F0"} /> */}
         <div className="relative">
           <div className="py-12 px-24 flex flex-col justify-center items-center">
             <ActivitiesSection />
+          </div>
+          <div className="py-12 px-24 flex flex-col justify-center items-center">
+            <div className="font-raleway text-2xl sm:text-4xl font-bold bg-gradient-to-r from-sky-600 to-teal-600 inline-block text-transparent bg-clip-text">
+              Highlights
+            </div>
+            <ImageSwiper />
           </div>
           <div className="absolute -bottom-[6rem] md:-bottom-24 left-1/2 -translate-x-1/2 z-10">
             <Waves color={"#E2E8F0"} />

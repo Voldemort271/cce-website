@@ -11,8 +11,8 @@ import {
 import React, { useEffect, useState, useRef } from "react";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
-import LogoPic from "../public/cce-mono.png";
-import IITPic from "../public/iitmd-mono.png";
+import LogoPic from "../public/CCE.png";
+import IITPic from "../public/IIT-Mandi.png";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 
@@ -79,19 +79,11 @@ const Navbar = () => {
       className={`font-raleway transition-all mx-5 lg:mx-12 my-2.5 lg:my-5 rounded-full flex flex-row justify-between items-center gap-5 border bg-[#48829e] px-12 py-2.5 sm:py-5 text-slate-100 border-slate-100/[0.5] shadow-2xl shadow-zinc-900/[0.1]`}
     >
       <Link href={"/"} className="flex flex-row gap-2.5 items-center">
-        <Image src={IITPic} alt={"Logo"} className="h-8 w-12 object-cover" />
-        <Image src={LogoPic} alt={"Logo"} className="w-8 h-8" />
+        <Image src={IITPic} alt={"Logo"} className="h-12 w-12 object-cover" />
+        <Image src={LogoPic} alt={"Logo"} className="w-12 h-12" />
         <div className="font-bold">CCE, IIT Mandi</div>
       </Link>
-      <div className="hidden md:flex flex-row gap-12 items-center text-base lg:text-lg font-semibold">
-        <Link
-          href={"/people"}
-          className={`rounded-lg px-3 py-1 transition-all ${
-            pathname === "/people" ? "bg-white text-black" : "hover:bg-white/20"
-          }`}
-        >
-          People
-        </Link>
+      <div className="hidden xl:flex flex-row gap-12 items-center text-base lg:text-lg font-semibold">
         <div
           className="relative"
           onMouseEnter={() => setIsOpen(true)}
@@ -184,10 +176,21 @@ const Navbar = () => {
               </DropdownMenuItem>
               <DropdownMenuItem>
                 <Link
-                  onClick={() => setIsOpen(false)}
-                  href={"/activities/school-visits"}
+                  onClick={() => {
+                    setToggle(false);
+                    setIsOpen1(false);
+                  }}
+                  href={"/activities/msme-courses"}
                 >
-                  School Visits
+                  MSME Courses
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem>
+                <Link
+                  onClick={() => setIsOpen(false)}
+                  href={"/activities/exposure-gateway-day"}
+                >
+                  Exposure Gateway Day
                 </Link>
               </DropdownMenuItem>
             </DropdownMenuContent>
@@ -202,18 +205,46 @@ const Navbar = () => {
           MOUs
         </Link>
         <Link
-          href={"/contact"}
+          href={"/tinkeringlab"}
           className={`rounded-lg px-3 py-1 transition-all ${
-            pathname === "/contact"
+            pathname === "/tinkeringlab"
               ? "bg-white text-black"
               : "hover:bg-white/20"
           }`}
         >
-          Contact
+          Tinkering Lab
+        </Link>
+        <Link
+          href={"/facilities"}
+          className={`rounded-lg px-3 py-1 transition-all ${
+            pathname === "/facilities"
+              ? "bg-white text-black"
+              : "hover:bg-white/20"
+          }`}
+        >
+          Facilities
+        </Link>
+        <Link
+          href={"/people"}
+          className={`rounded-lg px-3 py-1 transition-all ${
+            pathname === "/people" ? "bg-white text-black" : "hover:bg-white/20"
+          }`}
+        >
+          People
+        </Link>
+        <Link
+          href={"/downloads"}
+          className={`rounded-lg px-3 py-1 transition-all ${
+            pathname === "/downloads"
+              ? "bg-white text-black"
+              : "hover:bg-white/20"
+          }`}
+        >
+          Downloads
         </Link>
       </div>
       <div
-        className="inline md:hidden cursor-pointer"
+        className="inline xl:hidden cursor-pointer"
         onClick={() => {
           setToggle(!toggle);
           console.log(toggle);
@@ -225,7 +256,7 @@ const Navbar = () => {
         ref={navbarRef}
         className={`${
           toggle ? "flex" : "hidden"
-        } bg-slate-100/[0.3] backdrop-blur transition-all md:hidden absolute right-0 -bottom-48 text-right w-fit px-12 py-5 rounded-xl text-base lg:text-lg font-semibold border ${
+        } bg-slate-100/[0.3] backdrop-blur transition-all xl:hidden absolute right-[30px] -bottom-[274px] text-right w-fit px-12 py-5 rounded-xl text-base lg:text-lg font-semibold border ${
           isShrunk
             ? "text-slate-900 border-slate-300/[0.5]"
             : "text-slate-100 border-slate-100/[0.5]"
@@ -240,7 +271,7 @@ const Navbar = () => {
           }`}
           onClick={() => setToggle(false)}
         >
-          People
+          <center>People</center>
         </Link>
         <DropdownMenu open={isOpen1} onOpenChange={setIsOpen1}>
           <DropdownMenuTrigger
@@ -360,9 +391,20 @@ const Navbar = () => {
                   setToggle(false);
                   setIsOpen1(false);
                 }}
-                href={"/activities/school-visits"}
+                href={"/activities/msme-courses"}
               >
-                School Visits
+                MSME Courses
+              </Link>
+            </DropdownMenuItem>
+            <DropdownMenuItem>
+              <Link
+                onClick={() => {
+                  setToggle(false);
+                  setIsOpen1(false);
+                }}
+                href={"/activities/exposure-gateway-day"}
+              >
+                Exposure Gateway Day
               </Link>
             </DropdownMenuItem>
           </DropdownMenuContent>
@@ -376,10 +418,21 @@ const Navbar = () => {
           }`}
           onClick={() => setToggle(false)}
         >
-          MOUs
+          <center>MOUs</center>
         </Link>
         <Link
-          href={"/contact"}
+          href={"/downloads"}
+          className={`outline-none rounded-lg px-3 py-1 transition-all ${
+            pathname.startsWith("/downloads")
+              ? "bg-white text-black"
+              : "hover:bg-white/20"
+          }`}
+          onClick={() => setToggle(false)}
+        >
+          <center>Downloads</center>
+        </Link>
+        <Link
+          href={"/facilities"}
           className={`outline-none rounded-lg px-3 py-1 transition-all ${
             pathname.startsWith("/contact")
               ? "bg-white text-black"
@@ -387,7 +440,18 @@ const Navbar = () => {
           }`}
           onClick={() => setToggle(false)}
         >
-          Contact
+          <center>Facilities</center>
+        </Link>
+        <Link
+          href={"/tinkeringlab"}
+          className={`outline-none rounded-lg px-3 py-1 transition-all ${
+            pathname.startsWith("/tinkeringlab")
+              ? "bg-white text-black"
+              : "hover:bg-white/20"
+          }`}
+          onClick={() => setToggle(false)}
+        >
+          <center>Tinkering Lab</center>
         </Link>
       </div>
     </div>
