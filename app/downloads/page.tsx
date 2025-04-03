@@ -28,14 +28,14 @@ const Downloads = () => {
                 {elem.name}
               </div>
               <div className="border border-black py-2 col-span-2">
-                <Link href={`/${elem.wordLink}`} target="_blank" download>
+                <Link href={`/${elem.wordLink}`} target="_blank">
                   <center className="scale-150">
                     <FaFileWord />
                   </center>
                 </Link>
               </div>
               <div className="border border-black py-2 col-span-2">
-                <Link href={`/${elem.pdfLink}`} target="_blank" download>
+                <Link href={`/${elem.pdfLink}`} target="_blank">
                   <center className="scale-150">
                     <FaFilePdf />
                   </center>
