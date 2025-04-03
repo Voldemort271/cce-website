@@ -1,6 +1,8 @@
 import { facilities } from "@/lib/facilities";
 import SectionHeader from "@/components/section-header";
 import Waves from "@/components/waves";
+import Image from "next/image";
+
 const Facilities = () => {
   return (
     <div>
@@ -11,14 +13,15 @@ const Facilities = () => {
           style={{ marginBottom: "150px" }}
         >
           {facilities.map((elem, idx) => (
-            <div className="w-full py-12">
-              <img
+            <div className="w-full py-12" key={idx}>
+              <Image
                 src={elem.imageLink}
                 alt={elem.mainText}
-                key={idx}
                 className="w-[450px] h-[253px] rounded-xl"
+                width={500}
+                height={300}
               />
-              <h1 style={{ fontSize: "35px", marginTop: "25px" }} key={idx}>
+              <h1 style={{ fontSize: "35px", marginTop: "25px" }}>
                 <b>{elem.mainText}</b>
               </h1>
               <p
@@ -28,7 +31,6 @@ const Facilities = () => {
                   paddingLeft: "45px",
                   paddingRight: "45px",
                 }}
-                key={idx}
               >
                 {elem.subText}
               </p>
@@ -44,4 +46,5 @@ const Facilities = () => {
     </div>
   );
 };
+
 export default Facilities;

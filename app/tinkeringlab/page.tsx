@@ -1,5 +1,7 @@
 import SectionHeader from "@/components/section-header";
 import Waves from "@/components/waves";
+import Image from "next/image";
+import Rahul from "../../public/Rahul-Vaish.png";
 
 const TinkeringLab = () => {
   return (
@@ -33,10 +35,12 @@ const TinkeringLab = () => {
               Faculty Coordinator
             </h1>
 
-            <img
-              src="Rahul-Vaish.png"
+            <Image
+              src={Rahul}
               alt="Rahul Vaish"
               className="w-[250px] h-[300px] object-cover rounded-lg mt-2"
+              width={250}
+              height={300}
             />
           </div>
           <a

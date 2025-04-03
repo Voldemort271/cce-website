@@ -42,12 +42,12 @@ const MOUs = () => {
                   key={index}
                 />
               ) : (
-                <h1 style={{ fontSize: "18px" }}>
+                <h1 style={{ fontSize: "18px" }} key={index}>
                   <b>The Exposure Gateway Days programme</b> at <b>IIT Mandi</b>{" "}
                   is a unique opportunity for students, faculty/staff of
                   educational institutions to experience the world-class campus,
                   cutting-edge research, and innovation happening at one of
-                  India's premier technological institutes. We invite
+                  India&apos;s premier technological institutes. We invite
                   schools/colleges/universities from across the region and
                   beyond to visit IIT Mandi and engage in an enriching
                   experience.

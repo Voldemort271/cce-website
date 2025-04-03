@@ -4,6 +4,7 @@ import Link from "next/link";
 import { FaFilePdf } from "react-icons/fa";
 import { FaFileWord } from "react-icons/fa";
 import Waves from "@/components/waves";
+import React from "react";
 const Downloads = () => {
   return (
     <div>
@@ -22,7 +23,7 @@ const Downloads = () => {
           </div>
 
           {forms.map((elem, idx) => (
-            <>
+            <React.Fragment key={idx}>
               <div className="border border-black py-2">{elem.number}</div>
               <div className="border border-black py-2 col-span-4">
                 {elem.name}
@@ -41,7 +42,7 @@ const Downloads = () => {
                   </center>
                 </Link>
               </div>
-            </>
+            </React.Fragment>
           ))}
         </div>
       </div>

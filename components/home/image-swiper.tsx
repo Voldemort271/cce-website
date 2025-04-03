@@ -6,10 +6,11 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { swiperData } from "@/lib/swiper";
 import "./swiper.css";
+import Image from "next/image";
 
 const ImageSwiper = () => {
   return (
-    <div className="w-full max-w-4xl mt-10">
+    <div className="w-full max-w-4xl mt-10" key={`xyz`}>
       <Swiper
         modules={[Pagination, Autoplay]}
         spaceBetween={40}
@@ -20,19 +21,21 @@ const ImageSwiper = () => {
         id="swiper"
         className="scale-110 md:w-[90%]"
       >
-        {swiperData.map((elem) => {
+        {swiperData.map((elem, idx) => {
           return (
-            <SwiperSlide>
+            <SwiperSlide key={idx}>
               <div className="sm:p-4 rounded-lg" id="div">
                 <div className="flex flex-col items-center overflow-y-auto text-wrap p-4 ">
-                  <img
+                  <Image
                     src={elem.img}
                     alt={elem.alt}
-                    className="w-[100%] sm:w-[80%] sm:h-[80%] md:w-[90%] lg:w-[700px] lg:h-[400px] object-cover rounded-lg"
-                    id="img"
+                    width={700}
+                    height={400}
+                    className="object-cover rounded-lg"
+                    key={idx}
                   />
                   <p style={{ marginTop: "10px", marginBottom: "10px" }}>
-                    <p>{elem.mainLinkData}</p>
+                    {elem.mainLinkData}
                   </p>
                 </div>
               </div>
