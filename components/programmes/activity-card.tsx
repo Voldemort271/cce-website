@@ -20,15 +20,19 @@ const ActivityCard = ({ name, desc }: Props) => {
         <CardDescription className="text-base text-slate-600">
           {desc}
         </CardDescription>
-        <Link href="#" className="underline" style={{ color: "blue" }}>
-          Link1
-        </Link>
-        <Link href="#" className="underline" style={{ color: "blue" }}>
-          Link1
-        </Link>
-        <Link href="#" className="underline" style={{ color: "blue" }}>
-          Link1
-        </Link>
+        <div className="flex justify-evenly">
+          <Link href="#" className="underline" style={{ color: "blue" }}>
+            Link1
+          </Link>
+          <p>·</p>
+          <Link href="#" className="underline" style={{ color: "blue" }}>
+            Link2
+          </Link>
+          <p>·</p>
+          <Link href="#" className="underline" style={{ color: "blue" }}>
+            Link3
+          </Link>
+        </div>
       </CardHeader>
     </Card>
   );

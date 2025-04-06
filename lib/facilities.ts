@@ -7,19 +7,19 @@ import HallC from "../public/Hall C.jpeg";
 
 export const facilities = [
   {
-    imageLink: Recording,
-    mainText: "Recording Studio",
-    subText: `Our state-of-the-art recording studio is equipped with high-quality audio and video recording facilities, ideal for creating high-grade educational content, live webinars/streaming, and virtual lectures.`,
-  },
-  {
     imageLink: ConferenceRoom,
-    mainText: "Conference Room (40 seater)",
-    subText: `Designed for seamless virtual collaboration, our conference room is equipped with video conferencing tools, making it an ideal space for professional engagements and ensuring an immersive experience.`,
+    mainText: "Conference Room",
+    subText: `Designed for seamless virtual collaboration, our conference room is equipped with video conferencing tools, making it an ideal space for professional engagements and ensuring an immersive experience; 40 seater.`,
   },
   {
     imageLink: MiniAudi,
-    mainText: "Mini Auditorium (75 seater)",
-    subText: `A versatile space that functions as both a small auditorium and a classroom, accommodating a large audience for lectures, panel discussions, and presentations, etc. It also doubles as a space for training programs and academic events.`,
+    mainText: "Mini Auditorium",
+    subText: `A versatile space that functions as both a small auditorium and a classroom, accommodating a large audience for lectures, panel discussions, and presentations, etc. It also doubles as a space for training programs and academic events; 75 (fix) seater.`,
+  },
+  {
+    imageLink: Recording,
+    mainText: "Recording Studio",
+    subText: `Our state-of-the-art recording studio is equipped with high-quality audio and video recording facilities, ideal for creating high-grade educational content, live webinars/streaming, and virtual lectures.`,
   },
   {
     imageLink: HallA,
@@ -34,6 +34,6 @@ export const facilities = [
   {
     imageLink: HallC,
     mainText: "Hall C",
-    subText: `Classroom-cum-Digital Seminar Hall; 40 (Flex) Seater.`,
+    subText: `Classroom-cum-Digital Seminar Hall; 40 (Fix) Seater.`,
   },
 ];

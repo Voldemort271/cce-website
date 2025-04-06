@@ -204,16 +204,7 @@ const Navbar = () => {
         >
           MOUs
         </Link>
-        <Link
-          href={"/tinkeringlab"}
-          className={`rounded-lg px-3 py-1 transition-all ${
-            pathname === "/tinkeringlab"
-              ? "bg-white text-black"
-              : "hover:bg-white/20"
-          }`}
-        >
-          Tinkering Lab
-        </Link>
+
         <Link
           href={"/facilities"}
           className={`rounded-lg px-3 py-1 transition-all ${
@@ -223,6 +214,16 @@ const Navbar = () => {
           }`}
         >
           Facilities
+        </Link>
+        <Link
+          href={"/tinkeringlab"}
+          className={`rounded-lg px-3 py-1 transition-all ${
+            pathname === "/tinkeringlab"
+              ? "bg-white text-black"
+              : "hover:bg-white/20"
+          }`}
+        >
+          Tinkering Lab
         </Link>
         <Link
           href={"/people"}
@@ -262,17 +263,6 @@ const Navbar = () => {
             : "text-slate-100 border-slate-100/[0.5]"
         } flex-col gap-2.5`}
       >
-        <Link
-          href={"/people"}
-          className={`outline-none rounded-lg px-3 py-1 transition-all ${
-            pathname.startsWith("/people")
-              ? "bg-white text-black"
-              : "hover:bg-white/20"
-          }`}
-          onClick={() => setToggle(false)}
-        >
-          <center>People</center>
-        </Link>
         <DropdownMenu open={isOpen1} onOpenChange={setIsOpen1}>
           <DropdownMenuTrigger
             className={`outline-none rounded-lg px-3 py-1 transition-all ${
@@ -421,17 +411,6 @@ const Navbar = () => {
           <center>MOUs</center>
         </Link>
         <Link
-          href={"/downloads"}
-          className={`outline-none rounded-lg px-3 py-1 transition-all ${
-            pathname.startsWith("/downloads")
-              ? "bg-white text-black"
-              : "hover:bg-white/20"
-          }`}
-          onClick={() => setToggle(false)}
-        >
-          <center>Downloads</center>
-        </Link>
-        <Link
           href={"/facilities"}
           className={`outline-none rounded-lg px-3 py-1 transition-all ${
             pathname.startsWith("/contact")
@@ -452,6 +431,29 @@ const Navbar = () => {
           onClick={() => setToggle(false)}
         >
           <center>Tinkering Lab</center>
+        </Link>
+        <Link
+          href={"/people"}
+          className={`outline-none rounded-lg px-3 py-1 transition-all ${
+            pathname.startsWith("/people")
+              ? "bg-white text-black"
+              : "hover:bg-white/20"
+          }`}
+          onClick={() => setToggle(false)}
+        >
+          <center>People</center>
+        </Link>
+
+        <Link
+          href={"/downloads"}
+          className={`outline-none rounded-lg px-3 py-1 transition-all ${
+            pathname.startsWith("/downloads")
+              ? "bg-white text-black"
+              : "hover:bg-white/20"
+          }`}
+          onClick={() => setToggle(false)}
+        >
+          <center>Downloads</center>
         </Link>
       </div>
     </div>

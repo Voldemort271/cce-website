@@ -13,17 +13,17 @@ const ActivitiesSection = () => {
             A Five-day GIAN course on DATA-BASED SYSTEMS AND CONTROL at IIT
             Mandi
           </center>
-          <div className="flex justify-center">
+          <div className="flex justify-around">
             <Link
               href={
                 "https://sites.google.com/iitmandi.ac.in/data-based-systems-control/home"
               }
               target="_blank"
               style={{ color: "blue" }}
-              className="mr-7"
             >
               <center>Website</center>
             </Link>
+            <p>·</p>
             <Link
               href={"https://www.youtube.com/@cce-iitmandi"}
               target="_blank"

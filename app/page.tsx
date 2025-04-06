@@ -14,7 +14,7 @@ export default function Home() {
           <div className="py-12 px-24 flex flex-col justify-center items-center">
             <ActivitiesSection />
           </div>
-          <div className="py-12 px-24 flex flex-col justify-center items-center">
+          <div className="px-6 flex flex-col justify-center items-center">
             <div className="font-raleway text-2xl sm:text-4xl font-bold bg-gradient-to-r from-sky-600 to-teal-600 inline-block text-transparent bg-clip-text">
               Highlights
             </div>
