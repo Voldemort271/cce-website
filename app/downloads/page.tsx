@@ -30,9 +30,13 @@ const Downloads = () => {
               </div>
               <div className="border border-black py-2 col-span-2">
                 <Link href={`/${elem.wordLink}`} target="_blank">
-                  <center className="scale-150">
-                    <FaFileWord />
-                  </center>
+                  {elem.wordLink != "#" ? (
+                    <center className="scale-150">
+                      <FaFileWord />
+                    </center>
+                  ) : (
+                    <center>-</center>
+                  )}
                 </Link>
               </div>
               <div className="border border-black py-2 col-span-2">

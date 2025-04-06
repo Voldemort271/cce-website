@@ -58,7 +58,7 @@ const people: Person[] = [
 const PeoplePage = () => {
   return (
     <div className="relative">
-      <SectionHeader title={"Meet the staff"} />
+      <SectionHeader title={"People"} />
       <div className="w-full py-24">
         <div className="flex flex-col gap-12 bg-slate-100 px-5 md:px-12 lg:px-24 pb-24">
           <div className="flex flex-row justify-center flex-wrap gap-5 scale-105">
