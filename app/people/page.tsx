@@ -2,7 +2,7 @@ import React from "react";
 import Waves from "../../components/waves";
 import SectionHeader from "../../components/section-header";
 import PersonCard from "../../components/people/person-card";
-import Tushar from "../../public/tushar.jpg";
+import Tushar from "../../public/tushar1.jpg";
 import Pavin from "../../public/pavin.jpg";
 import Rakesh from "../../public/Rakesh Kumar_1.jpg";
 import Ram from "../../public/ramlal.jpg";
