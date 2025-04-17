@@ -54,7 +54,6 @@ const ActivitiesSection = () => {
           <center>
             A Hands-on Workshop on Composites Design and Manufacturing
           </center>
-
           <Link
             href="https://research.iitmandi.ac.in/cdpmhm2025/doc/5D%20CDM%20HW%202025%20Brochure.pdf"
             style={{ color: "blue" }}
@@ -67,16 +66,24 @@ const ActivitiesSection = () => {
           <center>
             One month Residential Program on AI & Robotics (PRAYAS 3.0)
           </center>
-
-          <Link
-            href={
-              "https://www.iitmandi.ac.in/pdf/announcements/PRAYAS_3_Brochure.pdf"
-            }
-            style={{ color: "blue" }}
-            target="_blank"
-          >
-            <center>Brochure</center>
-          </Link>
+          <div className="flex justify-around">
+            <Link
+              href={
+                "https://www.iitmandi.ac.in/pdf/announcements/PRAYAS_3_Brochure.pdf"
+              }
+              style={{ color: "blue" }}
+              target="_blank"
+            >
+              <center>Brochure</center>
+            </Link>
+            <Link
+              href={"https://bsates.tech/prayas.html"}
+              style={{ color: "blue" }}
+              target="_blank"
+            >
+              <center>Link</center>
+            </Link>
+          </div>
         </div>
       </div>
     </div>
