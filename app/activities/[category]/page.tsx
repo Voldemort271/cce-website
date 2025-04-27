@@ -56,7 +56,7 @@ const MOUs = () => {
                   <b>
                     Interest Form (Google Form) :{"  "}
                     <a
-                      href="http://cce.iitmandi.ac.in/egd/form"
+                      href="https://forms.gle/4Ec7iDkXmEVti5BS9"
                       className="hover:underline"
                       style={{ color: "blue" }}
                       target="_blank"
