@@ -17,7 +17,13 @@ function toTitleCase(str: string) {
 const MOUs = () => {
   const path = usePathname();
   const [activities, setActivities] = useState<
-    { category: string; name: string; details: string }[]
+    {
+      category: string;
+      name: string;
+      details: string;
+      Link1: string;
+      Link2: string;
+    }[]
   >([]);
 
   useEffect(() => {
@@ -39,6 +45,8 @@ const MOUs = () => {
                 <ActivityCard
                   name={activity.name}
                   desc={activity.details}
+                  Link1={activity.Link1}
+                  Link2={activity.Link2}
                   key={index}
                 />
               ) : (
