@@ -6,6 +6,8 @@ export const activities = [
     details: "Introduction to essential leadership skills and strategies.",
     Link1: "#",
     Link2: "#",
+    Link1Name: "",
+    Link2Name: "",
   },
   {
     category: "leadership-training",
@@ -13,6 +15,8 @@ export const activities = [
     details: "Exploring advanced communication and team management techniques.",
     Link1: "#",
     Link2: "#",
+    Link1Name: "",
+    Link2Name: "",
   },
   {
     category: "leadership-training",
@@ -20,6 +24,8 @@ export const activities = [
     details: "Developing emotional intelligence for effective leadership.",
     Link1: "#",
     Link2: "#",
+    Link1Name: "",
+    Link2Name: "",
   },
   {
     category: "leadership-training",
@@ -27,6 +33,8 @@ export const activities = [
     details: "Strategies for conflict resolution and decision-making.",
     Link1: "#",
     Link2: "#",
+    Link1Name: "",
+    Link2Name: "",
   },
   {
     category: "leadership-training",
@@ -34,6 +42,8 @@ export const activities = [
     details: "Building resilience and adaptability in leadership roles.",
     Link1: "#",
     Link2: "#",
+    Link1Name: "",
+    Link2Name: "",
   },
 
   // PM Vishwakarma
@@ -43,6 +53,8 @@ export const activities = [
     details: "Overview of the PM Vishwakarma program and objectives.",
     Link1: "#",
     Link2: "#",
+    Link1Name: "",
+    Link2Name: "",
   },
   {
     category: "pm-vishwakarma",
@@ -50,6 +62,8 @@ export const activities = [
     details: "Skill development initiatives under PM Vishwakarma.",
     Link1: "#",
     Link2: "#",
+    Link1Name: "",
+    Link2Name: "",
   },
   {
     category: "pm-vishwakarma",
@@ -57,6 +71,8 @@ export const activities = [
     details: "Vocational training and certification opportunities.",
     Link1: "#",
     Link2: "#",
+    Link1Name: "",
+    Link2Name: "",
   },
   {
     category: "pm-vishwakarma",
@@ -64,6 +80,8 @@ export const activities = [
     details: "Empowering artisans and craftsmen through PM Vishwakarma.",
     Link1: "#",
     Link2: "#",
+    Link1Name: "",
+    Link2Name: "",
   },
   {
     category: "pm-vishwakarma",
@@ -71,6 +89,8 @@ export const activities = [
     details: "Entrepreneurship support for traditional crafts and trades.",
     Link1: "#",
     Link2: "#",
+    Link1Name: "",
+    Link2Name: "",
   },
 
   // Capacity Building
@@ -81,6 +101,8 @@ export const activities = [
       "Enhancing team skills through targeted capacity-building sessions.",
     Link1: "#",
     Link2: "#",
+    Link1Name: "",
+    Link2Name: "",
   },
   {
     category: "capacity-building",
@@ -88,6 +110,8 @@ export const activities = [
     details: "Workshops on time management and productivity improvement.",
     Link1: "#",
     Link2: "#",
+    Link1Name: "",
+    Link2Name: "",
   },
   {
     category: "capacity-building",
@@ -95,6 +119,8 @@ export const activities = [
     details: "Skills development for effective project management.",
     Link1: "#",
     Link2: "#",
+    Link1Name: "",
+    Link2Name: "",
   },
   {
     category: "capacity-building",
@@ -102,6 +128,8 @@ export const activities = [
     details: "Capacity-building initiatives for organizational growth.",
     Link1: "#",
     Link2: "#",
+    Link1Name: "",
+    Link2Name: "",
   },
   {
     category: "capacity-building",
@@ -109,6 +137,8 @@ export const activities = [
     details: "Training on innovative thinking and problem-solving.",
     Link1: "#",
     Link2: "#",
+    Link1Name: "",
+    Link2Name: "",
   },
 
   // Short-Term Courses
@@ -118,6 +148,8 @@ export const activities = [
     details: "Intensive course on digital marketing basics.",
     Link1: "#",
     Link2: "#",
+    Link1Name: "",
+    Link2Name: "",
   },
   {
     category: "short-term-courses",
@@ -125,6 +157,8 @@ export const activities = [
     details: "Introduction to web development fundamentals.",
     Link1: "#",
     Link2: "#",
+    Link1Name: "",
+    Link2Name: "",
   },
   {
     category: "short-term-courses",
@@ -132,6 +166,8 @@ export const activities = [
     details: "Hands-on training in data analysis and visualization.",
     Link1: "#",
     Link2: "#",
+    Link1Name: "",
+    Link2Name: "",
   },
   {
     category: "short-term-courses",
@@ -139,6 +175,8 @@ export const activities = [
     details: "Fundamentals of graphic design and user experience.",
     Link1: "#",
     Link2: "#",
+    Link1Name: "",
+    Link2Name: "",
   },
   {
     category: "short-term-courses",
@@ -146,6 +184,8 @@ export const activities = [
     details: "Basic principles of financial literacy and management.",
     Link1: "#",
     Link2: "#",
+    Link1Name: "",
+    Link2Name: "",
   },
 
   // Online Courses
@@ -156,6 +196,8 @@ export const activities = [
       "A 15-credit minor foundational course, designed to equip learners with the technical skills, analytical mindset, and business acumen needed to thrive in today's data-driven world. The course blends foundational tools with advanced techniques to help learners extract meaningful insights and drive strategic decision-making.",
     Link1: "https://cce.iitmandi.ac.in/minor-in-ba",
     Link2: "https://drive.google.com/file/d/1VZbtfbeowci3u7xdrs2hKZJu_WJxLETU",
+    Link1Name: "Website",
+    Link2Name: "Poster",
   },
   {
     category: "online-courses",
@@ -164,6 +206,8 @@ export const activities = [
       "A 15-credit minor foundational course, designed to equip beginners with essential skills for high-demand careers in AI and data-driven decision-making",
     Link1: "https://cce.iitmandi.ac.in/iit-mandi-ai-ds",
     Link2: "https://drive.google.com/file/d/1VdMt6fXNvdhomEQsC15Yv04tpqYK32L_",
+    Link1Name: "Website",
+    Link2Name: "Poster",
   },
   {
     category: "online-courses",
@@ -172,6 +216,8 @@ export const activities = [
       "A 15-credit minor foundational course intended to help learners kickstart a career in tech by mastering key skills, making them industry-ready.",
     Link1: "https://cce.iitmandi.ac.in/minor-in-cse ",
     Link2: "https://drive.google.com/file/d/1ktfKMV-pdtU3tWtCLrkqfkFAAOcGOgzp",
+    Link1Name: "Website",
+    Link2Name: "Poster",
   },
   {
     category: "fdps",
@@ -180,6 +226,8 @@ export const activities = [
       "Enhancing leadership qualities through strategic decision-making and problem-solving exercises.",
     Link1: "#",
     Link2: "#",
+    Link1Name: "",
+    Link2Name: "",
   },
   {
     category: "fdps",
@@ -188,6 +236,8 @@ export const activities = [
       "Exploring innovative teaching methodologies to foster engagement and academic excellence.",
     Link1: "#",
     Link2: "#",
+    Link1Name: "",
+    Link2Name: "",
   },
   {
     category: "fdps",
@@ -196,6 +246,8 @@ export const activities = [
       "Developing effective communication and collaboration skills for academic growth.",
     Link1: "#",
     Link2: "#",
+    Link1Name: "",
+    Link2Name: "",
   },
   {
     category: "fdps",
@@ -204,6 +256,8 @@ export const activities = [
       "Leveraging technology in education to enhance learning experiences and student interactions.",
     Link1: "#",
     Link2: "#",
+    Link1Name: "",
+    Link2Name: "",
   },
   {
     category: "conferences",
@@ -212,6 +266,8 @@ export const activities = [
       "A platform for researchers and academicians to present their latest findings and innovations",
     Link1: "#",
     Link2: "#",
+    Link1Name: "",
+    Link2Name: "",
   },
   {
     category: "conferences",
@@ -220,6 +276,8 @@ export const activities = [
       "An in-depth discussion on the latest trends, breakthroughs, and challenges in AI and ML",
     Link1: "#",
     Link2: "#",
+    Link1Name: "",
+    Link2Name: "",
   },
   {
     category: "conferences",
@@ -228,6 +286,8 @@ export const activities = [
       "A practical session focused on developing real-world IoT applications using sensors, and cloud computing.",
     Link1: "#",
     Link2: "#",
+    Link1Name: "",
+    Link2Name: "",
   },
   {
     category: "gian-courses",
@@ -236,6 +296,8 @@ export const activities = [
     Link1:
       "https://www.youtube.com/playlist?list=PLiahwtYFf_dDYq8tlPfHv3rcRyadTG0fq",
     Link2: "#",
+    Link1Name: "Youtube Playlist",
+    Link2Name: "",
   },
   {
     category: "gian-courses",
@@ -245,6 +307,8 @@ export const activities = [
     Link1:
       "https://www.youtube.com/playlist?list=PLiahwtYFf_dCAullXgkyr4NbjLncMDdDQ",
     Link2: "#",
+    Link1Name: "Youtube Playlist",
+    Link2Name: "",
   },
   {
     category: "nptel-courses",
@@ -252,6 +316,8 @@ export const activities = [
     details: "By Prof. Tushar Jain, SCEE, IIT Mandi",
     Link1: "https://nptel.ac.in/courses/108106164",
     Link2: "https://www.youtube.com/@cce-iitmandi/playlists",
+    Link1Name: "Course Page",
+    Link2Name: "Youtube Playlist",
   },
   {
     category: "nptel-courses",
@@ -259,6 +325,8 @@ export const activities = [
     details: "By Prof. Puran Singh, SOM, IIT Mandi",
     Link1: "https://nptel.ac.in/courses/110106147",
     Link2: "https://www.youtube.com/@cce-iitmandi/playlists",
+    Link1Name: "Course Page",
+    Link2Name: "Youtube Playlist",
   },
   {
     category: "nptel-courses",
@@ -266,6 +334,8 @@ export const activities = [
     details: "By Prof. Swati Sharma, SMME, IIT Mandi",
     Link1: "https://nptel.ac.in/courses/113106099",
     Link2: "https://www.youtube.com/@cce-iitmandi/playlists",
+    Link1Name: "Course Page",
+    Link2Name: "Youtube Playlist",
   },
 
   {
@@ -274,6 +344,8 @@ export const activities = [
     details: "By Prof. Sunny Zafar, SMME, IIT Mandi",
     Link1: "https://nptel.ac.in/courses/112106622",
     Link2: "https://www.youtube.com/@cce-iitmandi/playlists",
+    Link1Name: "Course Page",
+    Link2Name: "Youtube Playlist",
   },
   {
     category: "nptel-courses",
@@ -281,6 +353,8 @@ export const activities = [
     details: "Prof. Akhilanand Pati Tiwari, SCEE, IIT Mandi",
     Link1: "https://nptel.ac.in/courses/108106374",
     Link2: "https://www.youtube.com/@cce-iitmandi/playlists",
+    Link1Name: "Course Page",
+    Link2Name: "Youtube Playlist",
   },
   {
     category: "nptel-courses",
@@ -288,6 +362,8 @@ export const activities = [
     details: "Prof. Varun Dutt",
     Link1: "https://nptel.ac.in/courses/106106579",
     Link2: "https://www.youtube.com/@cce-iitmandi/playlists",
+    Link1Name: "Course Page",
+    Link2Name: "Youtube Playlist",
   },
 
   {
@@ -296,6 +372,8 @@ export const activities = [
     details: "Content Here",
     Link1: "#",
     Link2: "#",
+    Link1Name: "",
+    Link2Name: "",
   },
   {
     category: "msme-courses",
@@ -303,6 +381,8 @@ export const activities = [
     details: "Content Here",
     Link1: "#",
     Link2: "#",
+    Link1Name: "",
+    Link2Name: "",
   },
   {
     category: "msme-courses",
@@ -310,6 +390,8 @@ export const activities = [
     details: "Content Here",
     Link1: "#",
     Link2: "#",
+    Link1Name: "",
+    Link2Name: "",
   },
   {
     category: "msme-courses",
@@ -317,6 +399,8 @@ export const activities = [
     details: "Content Here",
     Link1: "#",
     Link2: "#",
+    Link1Name: "",
+    Link2Name: "",
   },
   {
     category: "msme-courses",
@@ -324,6 +408,8 @@ export const activities = [
     details: "Content Here",
     Link1: "#",
     Link2: "#",
+    Link1Name: "",
+    Link2Name: "",
   },
   {
     category: "exposure-gateway-day",
@@ -331,5 +417,7 @@ export const activities = [
     details: "Content Here",
     Link1: "#",
     Link2: "#",
+    Link1Name: "",
+    Link2Name: "",
   },
 ];

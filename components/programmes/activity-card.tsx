@@ -12,9 +12,18 @@ interface Props {
   desc: string;
   Link1: string;
   Link2: string;
+  Link1Name: string;
+  Link2Name: string;
 }
 
-const ActivityCard = ({ name, desc, Link1, Link2 }: Props) => {
+const ActivityCard = ({
+  name,
+  desc,
+  Link1,
+  Link2,
+  Link1Name,
+  Link2Name,
+}: Props) => {
   return (
     <Card className="bg-slate-200 transition-all shadow-none hover:shadow-2xl hover:shadow-slate-900/[0.2] min-w-80">
       <CardHeader>
@@ -24,12 +33,20 @@ const ActivityCard = ({ name, desc, Link1, Link2 }: Props) => {
         </CardDescription>
         <div className="flex justify-evenly">
           <Link href={Link1} className="underline" style={{ color: "blue" }}>
-            Link1
+            {Link1Name}
           </Link>
-          <p>·</p>
-          <Link href={Link2} className="underline" style={{ color: "blue" }}>
-            Link2
-          </Link>
+          {Link2 != "#" && (
+            <>
+              <p>·</p>
+              <Link
+                href={Link2}
+                className="underline"
+                style={{ color: "blue" }}
+              >
+                {Link2Name}
+              </Link>
+            </>
+          )}
         </div>
       </CardHeader>
     </Card>
