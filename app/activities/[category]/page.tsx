@@ -23,6 +23,8 @@ const MOUs = () => {
       details: string;
       Link1: string;
       Link2: string;
+      Link1Name: string;
+      Link2Name: string;
     }[]
   >([]);
 
@@ -47,6 +49,8 @@ const MOUs = () => {
                   desc={activity.details}
                   Link1={activity.Link1}
                   Link2={activity.Link2}
+                  Link1Name={activity.Link1Name}
+                  Link2Name={activity.Link2Name}
                   key={index}
                 />
               ) : (
