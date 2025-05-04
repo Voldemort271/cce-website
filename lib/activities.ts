@@ -192,8 +192,7 @@ export const activities = [
   {
     category: "online-courses",
     name: "Minor in Business Analytics",
-    details:
-      "A 15-credit minor foundational course, designed to equip learners with the technical skills, analytical mindset, and business acumen needed to thrive in today's data-driven world. The course blends foundational tools with advanced techniques to help learners extract meaningful insights and drive strategic decision-making.",
+    details: "Online Course",
     Link1: "https://cce.iitmandi.ac.in/minor-in-ba",
     Link2: "https://drive.google.com/file/d/1VZbtfbeowci3u7xdrs2hKZJu_WJxLETU",
     Link1Name: "Website",
@@ -202,8 +201,7 @@ export const activities = [
   {
     category: "online-courses",
     name: "Minor in Artificial Intelligence and Data Science (with NSDC + MASAI)",
-    details:
-      "A 15-credit minor foundational course, designed to equip beginners with essential skills for high-demand careers in AI and data-driven decision-making",
+    details: "Online Course",
     Link1: "https://cce.iitmandi.ac.in/iit-mandi-ai-ds",
     Link2: "https://drive.google.com/file/d/1VdMt6fXNvdhomEQsC15Yv04tpqYK32L_",
     Link1Name: "Website",
@@ -212,8 +210,7 @@ export const activities = [
   {
     category: "online-courses",
     name: "Minor in Computer Science Engineering (with NSDC + MASAI)",
-    details:
-      "A 15-credit minor foundational course intended to help learners kickstart a career in tech by mastering key skills, making them industry-ready.",
+    details: "Online Course",
     Link1: "https://cce.iitmandi.ac.in/minor-in-cse ",
     Link2: "https://drive.google.com/file/d/1ktfKMV-pdtU3tWtCLrkqfkFAAOcGOgzp",
     Link1Name: "Website",
