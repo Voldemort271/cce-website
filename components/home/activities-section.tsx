@@ -11,7 +11,7 @@ const ActivitiesSection = () => {
 
         <div className="bg-slate-300 rounded-md p-5 min-w-72">
           <center>
-            One month Residential Program on AI & Robotics (PRAYAS 3.0)
+            One-month Residential Program on AI, Robotics & IoT (PRAYAS 3.0)
           </center>
           <div className="flex justify-around">
             <Link
@@ -35,7 +35,7 @@ const ActivitiesSection = () => {
 
         <div className="bg-slate-300 rounded-md p-5 min-w-72">
           <center>
-            A Hands-on Workshop on Composites Design and Manufacturing
+            A Hands-on Workshop on Composites Design and Manufacturing (16 – 20 June 2025)
           </center>
           <Link
             href="https://research.iitmandi.ac.in/cdpmhm2025/doc/5D%20CDM%20HW%202025%20Brochure.pdf"
