@@ -200,7 +200,7 @@ export const activities = [
   },
   {
     category: "online-courses",
-    name: "Minor in Artificial Intelligence and Data Science (with NSDC + MASAI)",
+    name: "Minor in Artificial Intelligence and Data Science",
     details: "Online Course",
     Link1: "https://cce.iitmandi.ac.in/iit-mandi-ai-ds",
     Link2: "https://drive.google.com/file/d/1VdMt6fXNvdhomEQsC15Yv04tpqYK32L_",
@@ -209,10 +209,30 @@ export const activities = [
   },
   {
     category: "online-courses",
-    name: "Minor in Computer Science Engineering (with NSDC + MASAI)",
+    name: "Minor in Computer Science Engineering",
     details: "Online Course",
     Link1: "https://cce.iitmandi.ac.in/minor-in-cse ",
     Link2: "https://drive.google.com/file/d/1ktfKMV-pdtU3tWtCLrkqfkFAAOcGOgzp",
+    Link1Name: "Website",
+    Link2Name: "Poster",
+  },
+  {
+    category: "online-courses",
+    name: "Minor in Cyber Security & Ethical Hacking",
+    details: "Online Course",
+    Link1:
+      "https://drive.google.com/file/d/1hg0hUQxfcxKN6DGZTENbK1YNJBnoW2tn/view?usp=sharing",
+    Link2: "#",
+    Link1Name: "Poster",
+    Link2Name: "",
+  },
+  {
+    category: "online-courses",
+    name: "Minor in Embedded Systems",
+    details: "Online Course",
+    Link1: "https://cce.iitmandi.ac.in/minor-in-es",
+    Link2:
+      "https://drive.google.com/file/d/11bbNfS_r9yVWOzqGqtxDbr2-_qXrKDfq/view?usp=sharing",
     Link1Name: "Website",
     Link2Name: "Poster",
   },
