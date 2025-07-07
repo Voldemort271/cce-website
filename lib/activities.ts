@@ -5,16 +5,17 @@ export const activities = [
     category: "leadership-training",
     name: "General Management and Leadership Program for GUVNL",
     details: "Coordinated by Prof. N Ravichandran, IIT Mandi",
-    Link1: "#",
+    Link1:
+      "https://drive.google.com/file/d/1hi77OhzX3fUmCxj3yMBPmgZzceF3gWje/view?usp=drive_link",
     Link2: "#",
-    Link1Name: "",
+    Link1Name: "Valedictory Ceremony",
     Link2Name: "",
   },
   // PM Vishwakarma
   {
     category: "pm-vishwakarma",
     name: "PM Vishwakarma Programme for Tailor",
-    details: "NIL",
+    details: "5-day Residential Course",
     Link1:
       "https://drive.google.com/file/d/1GV1mt1WuGlsskmb3lRfEf4HJuKj3gcJH/view?usp=drive_link",
     Link2: "#",
@@ -24,7 +25,7 @@ export const activities = [
   {
     category: "pm-vishwakarma",
     name: "PM Vishwakarma Programme for Blacksmith",
-    details: "NIL",
+    details: "5-day Residential Course",
     Link1:
       "https://drive.google.com/file/d/1OeYpRcIbltToXQQvIWBJhlMfJtban69R/view?usp=drive_link",
     Link2: "#",
@@ -34,7 +35,7 @@ export const activities = [
   {
     category: "pm-vishwakarma",
     name: "PM Vishwakarma Programme for Assistant Hair Dresser",
-    details: "NIL",
+    details: "5-day Residential Course",
     Link1:
       "https://drive.google.com/file/d/1yQAjdYoZxH_McXqJNpuh7VZ1IaG4MZsu/view?usp=drive_link",
     Link2: "#",
@@ -44,7 +45,7 @@ export const activities = [
   {
     category: "pm-vishwakarma",
     name: "PM Vishwakarma Programme for Carpenter",
-    details: "NIL",
+    details: "5-day Residential Course",
     Link1:
       "https://drive.google.com/file/d/16c3f8t7SHP0ydyeLw2AFa1VbMSUYruRL/view?usp=drive_link",
     Link2: "#",
@@ -155,7 +156,7 @@ export const activities = [
   {
     category: "fdps",
     name: "SCERT Delhi - FDP for PGT Biology",
-    details: "NIL",
+    details: "Faculty Development Programme",
     Link1:
       "https://drive.google.com/file/d/1_GsXSrSHNRjpzN_1Pmk6diiNJUh0QGDg/view?usp=sharing",
     Link2: "#",
@@ -165,7 +166,7 @@ export const activities = [
   {
     category: "fdps",
     name: "SCERT Delhi - FDP for PGT Chemistry",
-    details: "NIL",
+    details: "Faculty Development Programme",
     Link1:
       "https://drive.google.com/file/d/1vuN89QUFAehRHSOcXKfyYlKYT5pSMbnf/view?usp=sharing",
     Link2: "#",
@@ -175,7 +176,7 @@ export const activities = [
   {
     category: "fdps",
     name: "SCERT Delhi - FDP for PGT Mathematics",
-    details: "NIL",
+    details: "Faculty Development Programme",
     Link1:
       "https://drive.google.com/file/d/1CGQ0y3HsNFAnBbDH7VEi6v_QLvpIujNO/view?usp=sharing",
     Link2: "#",
@@ -185,7 +186,7 @@ export const activities = [
   {
     category: "fdps",
     name: "SCERT Delhi - FDP for PGT Physics",
-    details: "NIL",
+    details: "Faculty Development Programme",
     Link1: "",
     Link2: "#",
     Link1Name: "",

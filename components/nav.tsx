@@ -121,14 +121,6 @@ const Navbar = () => {
               <DropdownMenuItem>
                 <Link
                   onClick={() => setIsOpen(false)}
-                  href={"/activities/capacity-building"}
-                >
-                  Capacity Building Programme
-                </Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem>
-                <Link
-                  onClick={() => setIsOpen(false)}
                   href={"/activities/short-term-courses"}
                 >
                   Short-term Courses
@@ -298,17 +290,7 @@ const Navbar = () => {
                 PM Vishwakarma
               </Link>
             </DropdownMenuItem>
-            <DropdownMenuItem>
-              <Link
-                onClick={() => {
-                  setToggle(false);
-                  setIsOpen1(false);
-                }}
-                href={"/activities/capacity-building"}
-              >
-                Capacity Building Programme
-              </Link>
-            </DropdownMenuItem>
+
             <DropdownMenuItem>
               <Link
                 onClick={() => {
