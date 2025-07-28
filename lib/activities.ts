@@ -281,8 +281,19 @@ export const activities = [
 
   {
     category: "msme-courses",
-    name: "Heading",
-    details: "Content Here",
+    name: "Integrated Product Design and Development with CAE and CAM",
+    details: "Dr. Sunny Zafar, SMME, IIT Mandi",
+    Link1:
+      "https://drive.google.com/file/d/1bPFMCSPzJKj_0d6EWDSrMQDHmYO1L-3_/view",
+    Link2:
+      "https://drive.google.com/file/d/1N5y5LyK6K1IkQmtiK2X_BvkBIMrcuaWE/view",
+    Link1Name: "Class Photo",
+    Link2Name: "Group Photo",
+  },
+  {
+    category: "msme-courses",
+    name: "Advanced MDP on General Management/Leadership",
+    details: "Dr. Puran Singh, SOM",
     Link1: "#",
     Link2: "#",
     Link1Name: "",
@@ -290,39 +301,14 @@ export const activities = [
   },
   {
     category: "msme-courses",
-    name: "Heading",
-    details: "Content Here",
-    Link1: "#",
-    Link2: "#",
-    Link1Name: "",
-    Link2Name: "",
-  },
-  {
-    category: "msme-courses",
-    name: "Heading",
-    details: "Content Here",
-    Link1: "#",
-    Link2: "#",
-    Link1Name: "",
-    Link2Name: "",
-  },
-  {
-    category: "msme-courses",
-    name: "Heading",
-    details: "Content Here",
-    Link1: "#",
-    Link2: "#",
-    Link1Name: "",
-    Link2Name: "",
-  },
-  {
-    category: "msme-courses",
-    name: "Heading",
-    details: "Content Here",
-    Link1: "#",
-    Link2: "#",
-    Link1Name: "",
-    Link2Name: "",
+    name: "Advanced MDP in Entrepreneurship Mindset",
+    details: "Dr. Puran Singh, SOM",
+    Link1:
+      "https://drive.google.com/file/d/1_9iZlRPiqRcNwvTWgBWJG6tItXtXaUY6/view",
+    Link2:
+      "https://drive.google.com/file/d/173OkC9yeS9AyziW8LnlNMV3R3wM0-IMp/view",
+    Link1Name: "Class Photo",
+    Link2Name: "Group Photo",
   },
   {
     category: "exposure-gateway-day",
