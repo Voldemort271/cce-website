@@ -9,7 +9,7 @@ const ActivitiesSection = () => {
       </div>
       <div className="w-full my-5 flex flex-wrap justify-center gap-5">
         <div className="bg-slate-300 rounded-md p-5 min-w-72">
-          <center className="text-xl">
+          <center className="">
             GAIN Course: Elements of Smart Structures
           </center>
           <center className="">
