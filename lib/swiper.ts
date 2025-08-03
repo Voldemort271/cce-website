@@ -5,6 +5,16 @@ export const swiperData = [
     alt: "inauguration",
   },
   {
+    img: "/prayas.png",
+    mainLinkData: "Valedictory Group Photo: PRAYAS 3.0 (2025)",
+    alt: "Prayas",
+  },
+  {
+    img: "/gian.png",
+    mainLinkData: "Gian Course: Data Systems & Control",
+    alt: "Gian",
+  },
+  {
     img: "/Wall 1.jpeg",
     mainLinkData: "CCE Corridor Wall",
     alt: "Wall 1",
@@ -13,15 +23,5 @@ export const swiperData = [
     img: "/Wall 2.jpeg",
     mainLinkData: "CCE Corridor Wall",
     alt: "Wall 2",
-  },
-  {
-    img: "/Recording Studio.jpeg",
-    mainLinkData: "Recording Studio",
-    alt: "Recording Studio",
-  },
-  {
-    img: "/Conference Room 2.jpeg",
-    mainLinkData: "Conference Room",
-    alt: "Conference Room",
   },
 ];
